@@ -1,0 +1,332 @@
+{
+	"product":
+	{
+		"name": "Avril",
+		"owner": "Belwest",
+		"brand": "Belwest",
+		"collection": "Visual Quality Control PoC",
+		"last_modified": "27-03-20",
+		"version": 1.0,
+		"main_material": "suede",
+		"main_color": "purple",
+		"target_category": "women",
+		"season": "",
+		"tip": "round",
+		"closed": true,
+		"closing": "strap",
+		"heel_height": 9.0,
+		"shoe_height": 15.9,
+		"angles":
+		[
+			"inner",
+			"back",
+			"outer",
+			"front"
+		],
+		"zones":
+		[
+			"buckle",
+			"heel",
+			"heel_cap",
+			"heelcap",
+			"heelcap_stitches",
+			"insole",
+			"lining",
+			"lining_stitches",
+			"lining_heelcap",
+			"lining_heelcap_stitches",
+			"outsole",
+			"sole",
+			"toecap",
+			"toecap_stitches",
+			"upper",
+			"upper_stitches"
+		],
+		"defects":
+		[
+			"stitches"
+		],
+		"process":
+		{
+			"assets":
+			{
+				"Avril CAD Model 1": { "type": "sho", "file": "belwest_avril_1937781_upgrade by dxf drawings.sho" },
+				"Avril Model 1": { "type": "blend", "file": "female.blend" },
+				"Avril Model 2": { "type": "blend", "file": "female_inner.blend" },
+				"Avril Materials": { "type": "blend", "file": "female_materials.blend" }
+			},
+			"cad": "ShoeMaster v. 18",
+			"rendering": "Blender scripting by ICOL R&D",
+			"datasets":
+			[
+				{
+					"name": "inner_data",
+					"version": 1.0,
+					"size": 300
+				}
+			]
+		}
+	},
+	"angles":
+	{
+		"inner":
+		{
+			"value": 0.0,
+			"camera":
+			{
+				"position": { "x": 0.0, "y": -1.07536, "z": 0.295 },
+				"rotation": { "x": 78.1, "y": 0.0, "z": 0.0 },
+				"fov": 18.9,
+				"near": 0.5,
+				"far": 1.5
+			},
+			"visible_zones": [ "heel", "heelcap", "lining", "lining_heel", "outsole", "toecap", "upper" ],
+			"synth_image": "avril_inner_synth.png",
+			"real_image": "avril_inner_real.png",
+			"synth_mask": "avril_inner_synth_m.png",
+			"real_mask": "avril_inner_real_m.png",
+			"synth_specularity": "avril_inner_synth_s.png",
+			"real_specularity": "",
+			"synth_albedo": "avril_inner_synth_a.png",
+			"real_albedo": "",
+			"synth_normal": "avril_inner_synth_n.png",
+			"synth_depth": "avril_inner_synth_z.exr"
+		},
+		"back":
+		{
+			"value": 90.0,
+			"camera":
+			{
+				"position": { "x": 1.07536, "y": 0.0, "z": 0.295 },
+				"rotation": { "x": 78.1, "y": 0.0, "z": 90.0 },
+				"fov": 18.9,
+				"near": 0.5,
+				"far": 1.5
+			},
+			"visible_zones": [ "heel", "heelcap", "outsole", "toecap", "upper" ],
+			"synth_image": "avril_back_synth.png",
+			"real_image": "avril_back_real.png",
+			"synth_mask": "avril_back_synth_m.png",
+			"real_mask": "avril_back_real_m.png",
+			"synth_specularity": "avril_back_synth_s.png",
+			"real_specularity": "",
+			"synth_albedo": "avril_back_synth_a.png",
+			"real_albedo": "",
+			"synth_normal": "avril_back_synth_n.png",
+			"synth_depth": "avril_back_synth_z.exr"
+		},
+		"outer":
+		{
+			"value": 180.0,
+			"camera":
+			{
+				"position": { "x": 0.0, "y": 1.07536, "z": 0.295 },
+				"rotation": { "x": 78.1, "y": 0.0, "z": 180.0 },
+				"fov": 18.9,
+				"near": 0.5,
+				"far": 1.5
+			},
+			"visible_zones": [ "heel", "heelcap", "lining", "lining_heel", "outsole", "toecap", "upper" ],
+			"synth_image": "avril_outer_synth.png",
+			"real_image": "avril_outer_real.png",
+			"synth_mask": "avril_outer_synth_m.png",
+			"real_mask": "avril_outer_real_m.png",
+			"synth_specularity": "avril_outer_synth_s.png",
+			"real_specularity": "",
+			"synth_albedo": "avril_outer_synth_a.png",
+			"real_albedo": "",
+			"synth_normal": "avril_outer_synth_n.png",
+			"synth_depth": "avril_outer_synth_z.exr"
+		},
+		"front":
+		{
+			"value": 270.0,
+			"camera":
+			{
+				"position": { "x": -1.07536, "y": 0.0, "z": 0.295 },
+				"rotation": { "x": 78.1, "y": 0.0, "z": -90.0 },
+				"fov": 18.9,
+				"near": 0.5,
+				"far": 1.5
+			},
+			"visible_zones": [ "heelcap", "insole", "lining", "lining_heel", "outsole", "sole", "toecap", "upper" ],
+			"synth_image": "avril_front_synth.png",
+			"real_image": "avril_front_real.png",
+			"synth_mask": "avril_front_synth_m.png",
+			"real_mask": "avril_front_real_m.png",
+			"synth_specularity": "avril_front_synth_s.png",
+			"real_specularity": "",
+			"synth_albedo": "avril_front_synth_a.png",
+			"real_albedo": "",
+			"synth_normal": "avril_front_synth_n.png",
+			"synth_depth": "avril_front_synth_z.exr"
+		}
+	},
+	"zones":
+	{
+		"buckle":
+		{
+			"mask_color": "FFBF00"
+		},
+		"heel":
+		{
+			"mask_color": "00FF7F",
+		},
+		"heel_cap":
+		{
+			"mask_color": "00FFBF"
+		},
+		"heelcap":
+		{
+			"mask_color": "FFFF00",
+			"defects":
+			[
+				{
+					"name": "stitches",
+					"probability": 1.0,
+					"weight": 1.0,
+					"roi":
+					{
+						"inner": 
+						[
+							[ { "x": 3499, "y": 834 },  { "x": 3545, "y": 954 } ],
+							[ { "x": 3461, "y": 949 },  { "x": 3518, "y": 1072 } ],
+							[ { "x": 3429, "y": 1072 },  { "x": 3485, "y": 1216 } ],
+							[ { "x": 3401, "y": 1216 },  { "x": 3457, "y": 1366 } ],
+							[ { "x": 3371, "y": 1366 },  { "x": 3427, "y": 1513 } ],
+							[ { "x": 3318, "y": 1506 },  { "x": 3386, "y": 1656 } ],
+							[ { "x": 3261, "y": 1656 },  { "x": 3347, "y": 1804 } ],
+							[ { "x": 3498, "y": 789 },  { "x": 3628, "y": 833 } ],
+							[ { "x": 3569, "y": 717 },  { "x": 3612, "y": 789 } ],
+							[ { "x": 3595, "y": 652 },  { "x": 3704, "y": 718 } ],
+							[ { "x": 3628, "y": 598 },  { "x": 3759, "y": 652 } ],
+							[ { "x": 3669, "y": 536 },  { "x": 3823, "y": 599 } ],
+							[ { "x": 3720, "y": 469 },  { "x": 3860, "y": 536 } ],
+							[ { "x": 3778, "y": 412 },  { "x": 3931, "y": 470 } ],
+							[ { "x": 3851, "y": 360 },  { "x": 3977, "y": 413 } ]
+						]
+					},
+					"additional_zones": [ "heelcap_stitches" ]
+				}
+			]
+		},
+		"heelcap_stitches":
+		{
+			"mask_color": "0080FF"
+		},
+		"insole":
+		{
+			"mask_color": "40FF00"
+		},
+		"lining":
+		{
+			"mask_color": "BFFF00"
+		},
+		"lining_stitches":
+		{
+			"mask_color": "0040FF"
+		},
+		"lining_heelcap":
+		{
+			"mask_color": "80FF00"
+		},
+		"lining_heelcap_stitches":
+		{
+			"mask_color": "0000FF"
+		},
+		"outsole":
+		{
+			"mask_color": "00FF00"
+		},
+		"sole":
+		{
+			"mask_color": "00FF40"
+		},
+		"toecap":
+		{
+			"mask_color": "FF0000",
+			"defects":
+			[
+				{
+					"name": "stitches",
+					"probability": 1.0,
+					"weight": 1.0,
+					"roi":
+					{
+						"inner": 
+						[
+							[ { "x": 1677, "y": 1846 },  { "x": 1816, "y": 1910 } ],
+							[ { "x": 1816, "y": 1886 },  { "x": 1974, "y": 1961 } ],
+							[ { "x": 1974, "y": 1919 },  { "x": 2145, "y": 1991 } ],
+							[ { "x": 2144, "y": 1918 },  { "x": 2305, "y": 1987 } ],
+							[ { "x": 2297, "y": 1873 },  { "x": 2447, "y": 1935 } ],
+							[ { "x": 2380, "y": 1808 },  { "x": 2516, "y": 1872 } ],
+							[ { "x": 2480, "y": 1743 },  { "x": 2625, "y": 1808 } ],
+							[ { "x": 2565, "y": 1656 },  { "x": 2736, "y": 1745 } ],
+							[ { "x": 2649, "y": 1570 },  { "x": 2805, "y": 1655 } ],
+							[ { "x": 2720, "y": 1494 },  { "x": 2896, "y": 1573 } ],
+							[ { "x": 2819, "y": 1389 },  { "x": 2937, "y": 1496 } ]
+						]
+					},
+					"additional_zones": [ "toecap_stitches" ]
+				}
+			]
+		},
+		"toecap_stitches":
+		{
+			"mask_color": "00FFFF"
+		},
+		"upper":
+		{
+			"mask_color": "FF7F00",
+			"defects":
+			[
+				{
+					"name": "stitches",
+					"probability": 1.0,
+					"weight": 1.0,
+					"roi":
+					{
+						"inner": 
+						[
+							[ { "x": 2970, "y": 719 },  { "x": 3026, "y": 887 } ],
+							[ { "x": 2950, "y": 890 },  { "x": 3006, "y": 1005 } ],
+							[ { "x": 2947, "y": 1005 },  { "x": 3006, "y": 1128 } ],
+							[ { "x": 2942, "y": 1127 },  { "x": 3002, "y": 1263 } ],
+							[ { "x": 2934, "y": 1265 },  { "x": 2996, "y": 1415 } ],
+							[ { "x": 2929, "y": 1415 },  { "x": 2996, "y": 1576 } ],
+							[ { "x": 2932, "y": 1578 },  { "x": 2996, "y": 1747 } ],
+							[ { "x": 2933, "y": 1752 },  { "x": 2994, "y": 1950 } ],
+							[ { "x": 2930, "y": 1947 },  { "x": 2984, "y": 2091 } ],
+							[ { "x": 2903, "y": 2084 },  { "x": 2952, "y": 2185 } ],
+							[ { "x": 2885, "y": 2185 },  { "x": 2932, "y": 2255 } ],
+							[ { "x": 3029, "y": 720 },  { "x": 3174, "y": 791 } ],
+							[ { "x": 3174, "y": 718 },  { "x": 3336, "y": 801 } ],
+							[ { "x": 3335, "y": 720 },  { "x": 3449, "y": 806 } ],
+							[ { "x": 3448, "y": 720 },  { "x": 3562, "y": 788 } ],
+							[ { "x": 2832, "y": 702 },  { "x": 2969, "y": 772 } ],
+							[ { "x": 2677, "y": 692 },  { "x": 2833, "y": 763 } ],
+							[ { "x": 2548, "y": 701 },  { "x": 2679, "y": 758 } ],
+							[ { "x": 2473, "y": 724 },  { "x": 2556, "y": 762 } ],
+							[ { "x": 2387, "y": 751 },  { "x": 2491, "y": 792 } ],
+							[ { "x": 2337, "y": 787 },  { "x": 2404, "y": 820 } ],
+							[ { "x": 2298, "y": 820 },  { "x": 2381, "y": 872 } ],
+							[ { "x": 2855, "y": 816 },  { "x": 2980, "y": 877 } ],
+							[ { "x": 2717, "y": 802 },  { "x": 2855, "y": 861 } ],
+							[ { "x": 2576, "y": 806 },  { "x": 2717, "y": 862 } ],
+							[ { "x": 2475, "y": 825 },  { "x": 2576, "y": 867 } ],
+							[ { "x": 2390, "y": 854 },  { "x": 2488, "y": 898 } ],
+							[ { "x": 2341, "y": 883 },  { "x": 2410, "y": 918 } ],
+							[ { "x": 2305, "y": 911 },  { "x": 2368, "y": 946 } ]
+						]
+					},
+					"additional_zones": [ "buckle", "upper_stitches" ]
+				}
+			]
+		},
+		"upper_stitches":
+		{
+			"mask_color": "00BFFF"
+		}
+	}
+}

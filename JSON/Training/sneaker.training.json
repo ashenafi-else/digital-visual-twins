@@ -1,0 +1,3164 @@
+{
+	"product":
+	{
+		"name": "Sneaker",
+		"owner": "Belwest",
+		"brand": "Belwest",
+		"collection": "Visual Quality Control PoC",
+		"last_modified": "27-03-20",
+		"version": 1.0,
+		"main_material": "leather",
+		"main_color": "white",
+		"target_category": "men",
+		"season": "",
+		"tip": "round",
+		"closed": true,
+		"closing": "laces",
+		"heel_height": 2.5,
+		"shoe_height": 9.8,
+		"angles": [ "inner" ],
+		"zones":
+		[
+			"insole",
+			"lining",
+			"outsole",
+			"toecap",
+			"tongue",
+			"upper",
+			"upper_front"
+		],
+		"process":
+		{
+			"assets":
+			{
+				"Sneaker Model 2": { "type": "blend", "file": "sneaker_inner.blend" },
+				"Sneaker Materials": { "type": "blend", "file": "sneaker_materials.blend" }
+			},
+			"cad": "ShoeMaster v. 18",
+			"rendering": "Blender scripting by ICOL R&D",
+			"datasets":
+			[
+				{
+					"name": "inner_data",
+					"version": 1.0,
+					"size": 300
+				}
+			]
+		}
+	},
+	"angles":
+	[
+		{
+			"name": "inner",
+			"value": 0.0,
+			"offset": 12.5
+		}
+	],
+	"components":
+	[
+		{
+			"name": "upper",
+			"file": "sneaker_inner.blend",
+			"materials":
+			[
+				{
+					"name": "mat_leather",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_calf_leather",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_nappa",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_txs",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_textile",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_suede",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Component 01",
+						"code": "FF0000"
+					}
+				]
+			},
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "upper_stitches",
+			"file": "sneaker_inner.blend",
+			"materials":
+			[
+				{
+					"name": "mat_cotton",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Component 01",
+						"code": "FF0000"
+					}
+				]
+			},
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "upper_front",
+			"file": "sneaker_inner.blend",
+			"materials":
+			[
+				{
+					"name": "mat_leather",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_calf_leather",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_nappa",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_txs",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_textile",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_suede",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Component 02",
+						"code": "FF7F00"
+					}
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "upper_front_stitches",
+			"file": "sneaker_inner.blend",
+			"materials":
+			[
+				{
+					"name": "mat_cotton",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Component 02",
+						"code": "FF7F00"
+					}
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "toecap",
+			"file": "sneaker_inner.blend",
+			"materials":
+			[
+				{
+					"name": "mat_leather",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_calf_leather",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_nappa",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_txs",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_textile",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_suede",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Component 03",
+						"code": "FFFF00"
+					}
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "toecap_stitches",
+			"file": "sneaker_inner.blend",
+			"materials":
+			[
+				{
+					"name": "mat_cotton",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Component 03",
+						"code": "FFFF00"
+					}
+				]
+			},
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "tongue",
+			"file": "sneaker_inner.blend",
+			"materials":
+			[
+				{
+					"name": "mat_leather",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_calf_leather",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_nappa",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_txs",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_textile",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_suede",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Component 04",
+						"code": "80FF00"
+					}
+				]
+			},
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "collar",
+			"file": "sneaker_inner.blend",
+			"materials":
+			[
+				{
+					"name": "mat_leather",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_calf_leather",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_nappa",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_txs",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_textile",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_suede",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+					"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Component 01",
+						"code": "FF0000"
+					}
+				]
+			},
+			"landmark_material":{
+				"name": "mat_flat_color",
+					"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "collar_stitches",
+			"file": "sneaker_inner.blend",
+			"materials":
+			[
+				{
+					"name": "mat_cotton",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Component 01",
+						"code": "FF0000"
+					}
+				]
+			},
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "heel_tab",
+			"file": "sneaker_inner.blend",
+			"materials":
+			[
+				{
+					"name": "mat_leather",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_calf_leather",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_nappa",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_txs",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_textile",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_suede",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Component 01",
+						"code": "FF0000"
+					}
+				]
+			},
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "heel_tab_stitches",
+			"file": "sneaker_inner.blend",
+			"materials":
+			[
+				{
+					"name": "mat_cotton",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Component 01",
+						"code": "FF0000"
+					}
+				]
+			},
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "star",
+			"file": "sneaker_inner.blend",
+			"materials":
+			[
+				{
+					"name": "mat_leather",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_calf_leather",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_nappa",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_txs",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_textile",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				},
+				{
+					"name": "mat_suede",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Component 01",
+						"code": "FF0000"
+					}
+				]
+			},
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "star_stitches",
+			"file": "sneaker_inner.blend",
+			"materials":
+			[
+				{
+					"name": "mat_cotton",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F1CAAD",
+							"code": "F1CAAD"
+						},
+						{
+							"name": "F7BCAC",
+							"code": "F7BCAC"
+						},
+						{
+							"name": "FCD299",
+							"code": "FCD299"
+						},
+						{
+							"name": "F1E6B2",
+							"code": "F1E6B2"
+						},
+						{
+							"name": "C7E995",
+							"code": "C7E995"
+						},
+						{
+							"name": "A8D3C4",
+							"code": "A8D3C4"
+						},
+						{
+							"name": "97BFCB",
+							"code": "97BFCB"
+						},
+						{
+							"name": "C3D7EE",
+							"code": "C3D7EE"
+						},
+						{
+							"name": "DFC8E7",
+							"code": "DFC8E7"
+						},
+						{
+							"name": "EAD3E2",
+							"code": "EAD3E2"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Component 01",
+						"code": "FF0000"
+					}
+				]
+			},
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "laces",
+			"file": "sneaker_inner.blend",
+			"materials":
+			[
+				{
+					"name": "mat_cordura",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "FFFFFF",
+							"code": "FFFFFF"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Component 05",
+						"code": "00FF00"
+					}
+				]
+			},
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "lining",
+			"file": "sneaker_inner.blend",
+			"materials":
+			[
+				{
+					"name": "mat_lining",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "BA9F99",
+							"code": "BA9F99"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Component 06",
+						"code": "00FF7F"
+					}
+				]
+			},
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "lining_stitches",
+			"file": "sneaker_inner.blend",
+			"materials":
+			[
+				{
+					"name": "mat_cotton",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "BA9F99",
+							"code": "BA9F99"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Component 06",
+						"code": "00FF7F"
+					}
+				]
+			},
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "lining_heel",
+			"file": "sneaker_inner.blend",
+			"materials":
+			[
+				{
+					"name": "mat_lining",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "BA9F99",
+							"code": "BA9F99"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Component 06",
+						"code": "00FF7F"
+					}
+				]
+			},
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "lining_heel_stitches",
+			"file": "sneaker_inner.blend",
+			"materials":
+			[
+				{
+					"name": "mat_cotton",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "BA9F99",
+							"code": "BA9F99"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Component 06",
+						"code": "00FF7F"
+					}
+				]
+			},
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "insole",
+			"file": "sneaker_inner.blend",
+			"materials":
+			[
+				{
+					"name": "mat_lining",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "BA9F99",
+							"code": "BA9F99"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Component 07",
+						"code": "00FFFF"
+					}
+				]
+			},
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "outsole",
+			"file": "sneaker_inner.blend",
+			"materials":
+			[
+				{
+					"name": "mat_outsole",
+					"file": "sneaker_materials.blend",
+					"colors":
+					[
+						{
+							"name": "FFFFFF",
+							"code": "FFFFFF"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Component 08",
+						"code": "0080FF"
+					}
+				]
+			},
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		}
+	],
+	"landmarks":
+	[
+		{
+			"name": "L01",
+			"file": "sneaker_inner.blend",
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Landmark 01",
+						"code": "FF0000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "L02",
+			"file": "sneaker_inner.blend",
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Landmark 02",
+						"code": "FF7F00"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "L03",
+			"file": "sneaker_inner.blend",
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Landmark 03",
+						"code": "FFFF00"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "L04",
+			"file": "sneaker_inner.blend",
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Landmark 04",
+						"code": "80FF00"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "L05",
+			"file": "sneaker_inner.blend",
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Landmark 05",
+						"code": "00FF00"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "L06",
+			"file": "sneaker_inner.blend",
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Landmark 06",
+						"code": "00FF7F"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "L07",
+			"file": "sneaker_inner.blend",
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Landmark 07",
+						"code": "00FFFF"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "L08",
+			"file": "sneaker_inner.blend",
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Landmark 08",
+						"code": "0080FF"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "L09",
+			"file": "sneaker_inner.blend",
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Landmark 09",
+						"code": "0000FF"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "L10",
+			"file": "sneaker_inner.blend",
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Landmark 10",
+						"code": "7F00FF"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "L11",
+			"file": "sneaker_inner.blend",
+			"landmark_material":{
+				"name": "mat_flat_color",
+				"file": "sneaker_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Landmark 11",
+						"code": "FF00FF"
+					}
+				]
+			}
+ 		}
+	]
+}

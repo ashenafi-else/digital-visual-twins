@@ -1,0 +1,288 @@
+{
+	"product":
+	{
+		"name": "Versal",
+		"owner": "Belwest",
+		"brand": "Belwest",
+		"collection": "Visual Quality Control PoC",
+		"last_modified": "27-03-20",
+		"version": 1.0,
+		"main_material": "leather",
+		"main_color": "black",
+		"target_category": "men",
+		"season": "summer",
+		"tip": "round",
+		"closed": true,
+		"closing": "laces",
+		"heel_height": 2.5,
+		"shoe_height": 9.8,
+		"zones":
+		[
+			"heelcap",
+			"heelcap_stitches",
+			"insole",
+			"laces",
+			"lining",
+			"lining_holes",
+			"lining_stitches",
+			"outsole",
+			"outsole_stitches",
+			"toecap",
+			"toecap_holes",
+			"tongue",
+			"tongue_stitches",
+			"upper",
+			"upper_holes",
+			"upper_stitches"
+		],
+		"process":
+		{
+			"assets":
+			{
+				"Versal CAD Model 1": { "type": "sho", "file": "belwest_versal_1938410_2.sho" }
+			},
+			"cad": "ShoeMaster v. 18"
+		}
+	},
+	"scale": 1.0,
+	"components":
+	[
+		{
+			"name": "upper",
+			"file": "upper.obj",
+			"material":
+			{
+				"name": "patent",
+				"file": "male_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "upper_stitches",
+			"file": "upper_stitches.obj",
+			"material":
+			{
+				"name": "cotton",
+				"file": "male_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "upper_holes",
+			"file": "upper_holes.obj",
+			"material":
+			{
+				"name": "transparent",
+				"file": "male_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "toecap",
+			"file": "toecap.obj",
+			"material":
+			{
+				"name": "patent",
+				"file": "male_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "toecap_holes",
+			"file": "toecap_holes.obj",
+			"material":
+			{
+				"name": "transparent",
+				"file": "male_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "heelcap",
+			"file": "heelcap.obj",
+			"material":
+			{
+				"name": "patent",
+				"file": "male_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "heelcap_stitches",
+			"file": "heelcap_stitches.obj",
+			"material":
+			{
+				"name": "cotton",
+				"file": "male_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "tongue",
+			"file": "tongue.obj",
+			"material":
+			{
+				"name": "patent",
+				"file": "male_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "tongue_stitches",
+			"file": "tongue_stitches.obj",
+			"material":
+			{
+				"name": "patent",
+				"file": "male_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "lining",
+			"file": "lining.obj",
+			"material":
+			{
+				"name": "nappa",
+				"file": "male_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "lining_stitches",
+			"file": "lining_stitches.obj",
+			"material":
+			{
+				"name": "cotton",
+				"file": "male_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "lining_holes",
+			"file": "lining_holes.obj",
+			"material":
+			{
+				"name": "transparent",
+				"file": "male_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "lining_heelcap",
+			"file": "lining_heelcap.obj",
+			"material":
+			{
+				"name": "nubuk",
+				"file": "male_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "lining_heelcap_stitches",
+			"file": "lining_heelcap_stitches.obj",
+			"material":
+			{
+				"name": "cotton",
+				"file": "male_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "insole",
+			"file": "insole.obj",
+			"material":
+			{
+				"name": "nappa",
+				"file": "male_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "laces",
+			"file": "laces.obj",
+			"material":
+			{
+				"name": "cotton",
+				"file": "male_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "outsole",
+			"file": "outsole.obj",
+			"material":
+			{
+				"name": "smooth_platic",
+				"file": "male_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "outsole_stitches",
+			"file": "outsole_stitches.obj",
+			"material":
+			{
+				"name": "cotton",
+				"file": "male_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "outsole_deco",
+			"file": "outsole_deco.obj",
+			"material":
+			{
+				"name": "metal",
+				"file": "male_materials.blend"
+			},
+			"metallic": true
+ 		}
+	],
+	"landmarks":
+	[
+		{
+			"name": "L01",
+			"file": "L01.obj"
+ 		},
+		{
+			"name": "L02",
+			"file": "L02.obj"
+ 		},
+		{
+			"name": "L03",
+			"file": "L03.obj"
+ 		},
+		{
+			"name": "L04",
+			"file": "L04.obj"
+ 		},
+		{
+			"name": "L05",
+			"file": "L05.obj"
+ 		},
+		{
+			"name": "L06",
+			"file": "L06.obj"
+ 		},
+		{
+			"name": "L07",
+			"file": "L07.obj"
+ 		},
+		{
+			"name": "L08",
+			"file": "L08.obj"
+ 		},
+		{
+			"name": "L09",
+			"file": "L09.obj"
+ 		},
+		{
+			"name": "L10",
+			"file": "L10.obj"
+ 		},
+		{
+			"name": "L11",
+			"file": "L11.obj"
+ 		}
+	]
+}

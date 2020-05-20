@@ -1,0 +1,1236 @@
+{
+	"product":
+	{
+		"name": "Avril",
+		"owner": "Belwest",
+		"brand": "Belwest",
+		"collection": "Visual Quality Control PoC",
+		"last_modified": "27-03-20",
+		"version": 1.0,
+		"main_material": "suede",
+		"main_color": "purple",
+		"target_category": "women",
+		"season": "",
+		"tip": "round",
+		"closed": true,
+		"closing": "strap",
+		"heel_height": 9.0,
+		"shoe_height": 15.9,
+		"angles":
+		[
+			"inner"
+		],
+		"zones":
+		[
+			"buckle",
+			"heel",
+			"heel_cap",
+			"heelcap",
+			"heelcap_stitches",
+			"insole",
+			"lining",
+			"lining_stitches",
+			"lining_heelcap",
+			"lining_heelcap_stitches",
+			"outsole",
+			"sole",
+			"toecap",
+			"toecap_stitches",
+			"upper",
+			"upper_stitches"
+		],
+		"process":
+		{
+			"assets":
+			{
+				"Avril CAD Model 1": { "type": "sho", "file": "belwest_avril_1937781_upgrade by dxf drawings.sho" },
+				"Avril Model 1": { "type": "blend", "file": "female.blend" },
+				"Avril Model 2": { "type": "blend", "file": "female_inner.blend" },
+				"Avril Materials": { "type": "blend", "file": "female_materials.blend" }
+			},
+			"cad": "ShoeMaster v. 18",
+			"rendering": "Blender scripting by ICOL R&D",
+			"datasets":
+			[
+				{
+					"name": "inner_data",
+					"version": 1.0,
+					"size": 300
+				}
+			]
+		}
+	},
+	"angles":
+	[
+		{
+			"name": "inner",
+			"value": 0.0,
+			"offset": 12.5
+		}
+	],
+	"components":
+	[
+		{
+			"name": "toecap",
+			"variants":
+			[
+				{
+					"name": "toecap",
+					"file": "female_inner.blend",
+					"materials":
+					[
+						{
+							"name": "mat_suede",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "FF9DA2", "code": "FF9DA2" },
+								{ "name": "F5CABF", "code": "F5CABF" },
+								{ "name": "CF578A", "code": "CF578A" },
+								{ "name": "DB8A06", "code": "DB8A06" },
+								{ "name": "FDAA63", "code": "FDAA63" },
+								{ "name": "B6ADA5", "code": "B6ADA5" },
+								{ "name": "B8CCEA", "code": "B8CCEA" },
+								{ "name": "8E9FBC", "code": "8E9FBC" },
+								{ "name": "AD7C59", "code": "AD7C59" },
+								{ "name": "8B5B29", "code": "8B5B29" }
+							]
+						},
+						{
+							"name": "mat_volpiana",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "FF9DA2", "code": "FF9DA2" },
+								{ "name": "F5CABF", "code": "F5CABF" },
+								{ "name": "CF578A", "code": "CF578A" },
+								{ "name": "DB8A06", "code": "DB8A06" },
+								{ "name": "FDAA63", "code": "FDAA63" },
+								{ "name": "B6ADA5", "code": "B6ADA5" },
+								{ "name": "B8CCEA", "code": "B8CCEA" },
+								{ "name": "8E9FBC", "code": "8E9FBC" },
+								{ "name": "AD7C59", "code": "AD7C59" },
+								{ "name": "8B5B29", "code": "8B5B29" }
+							]
+						},
+						{
+							"name": "mat_nubuk",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "FF9DA2", "code": "FF9DA2" },
+								{ "name": "F5CABF", "code": "F5CABF" },
+								{ "name": "CF578A", "code": "CF578A" },
+								{ "name": "DB8A06", "code": "DB8A06" },
+								{ "name": "FDAA63", "code": "FDAA63" },
+								{ "name": "B6ADA5", "code": "B6ADA5" },
+								{ "name": "B8CCEA", "code": "B8CCEA" },
+								{ "name": "8E9FBC", "code": "8E9FBC" },
+								{ "name": "AD7C59", "code": "AD7C59" },
+								{ "name": "8B5B29", "code": "8B5B29" }
+							]
+						},
+						{
+							"name": "mat_denim",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "FF9DA2", "code": "FF9DA2" },
+								{ "name": "F5CABF", "code": "F5CABF" },
+								{ "name": "CF578A", "code": "CF578A" },
+								{ "name": "DB8A06", "code": "DB8A06" },
+								{ "name": "FDAA63", "code": "FDAA63" },
+								{ "name": "B6ADA5", "code": "B6ADA5" },
+								{ "name": "B8CCEA", "code": "B8CCEA" },
+								{ "name": "8E9FBC", "code": "8E9FBC" },
+								{ "name": "AD7C59", "code": "AD7C59" },
+								{ "name": "8B5B29", "code": "8B5B29" }
+							]
+						},
+						{
+							"name": "mat_knitted",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "FF9DA2", "code": "FF9DA2" },
+								{ "name": "F5CABF", "code": "F5CABF" },
+								{ "name": "CF578A", "code": "CF578A" },
+								{ "name": "DB8A06", "code": "DB8A06" },
+								{ "name": "FDAA63", "code": "FDAA63" },
+								{ "name": "B6ADA5", "code": "B6ADA5" },
+								{ "name": "B8CCEA", "code": "B8CCEA" },
+								{ "name": "8E9FBC", "code": "8E9FBC" },
+								{ "name": "AD7C59", "code": "AD7C59" },
+								{ "name": "8B5B29", "code": "8B5B29" }
+							]
+						},
+						{
+							"name": "mat_sm_pearlsnake",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "FF9DA2", "code": "FF9DA2" },
+								{ "name": "F5CABF", "code": "F5CABF" },
+								{ "name": "CF578A", "code": "CF578A" },
+								{ "name": "DB8A06", "code": "DB8A06" },
+								{ "name": "FDAA63", "code": "FDAA63" },
+								{ "name": "B6ADA5", "code": "B6ADA5" },
+								{ "name": "B8CCEA", "code": "B8CCEA" },
+								{ "name": "8E9FBC", "code": "8E9FBC" },
+								{ "name": "AD7C59", "code": "AD7C59" },
+								{ "name": "8B5B29", "code": "8B5B29" }
+							]
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "FF0000", "code": "FF0000" }
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Flat Black", "code": "000000" }
+				]
+			}
+ 		},
+		{
+			"name": "toecap_stitches",
+			"variants":
+			[
+				{
+					"name": "toecap_stitches",
+					"file": "female_inner.blend",
+					"materials":
+					[
+						{
+							"name": "mat_cotton",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "FF9DA2", "code": "FF9DA2" },
+								{ "name": "F5CABF", "code": "F5CABF" },
+								{ "name": "CF578A", "code": "CF578A" },
+								{ "name": "DB8A06", "code": "DB8A06" },
+								{ "name": "FDAA63", "code": "FDAA63" },
+								{ "name": "B6ADA5", "code": "B6ADA5" },
+								{ "name": "B8CCEA", "code": "B8CCEA" },
+								{ "name": "8E9FBC", "code": "8E9FBC" },
+								{ "name": "AD7C59", "code": "AD7C59" },
+								{ "name": "8B5B29", "code": "8B5B29" }
+							]
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "00FFFF", "code": "00FFFF" }
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Flat Black", "code": "000000" }
+				]
+			}
+ 		},
+		{
+			"name": "upper",
+			"variants":
+			[
+				{
+					"name": "upper",
+					"file": "female_inner.blend",
+					"materials":
+					[
+						{
+							"name": "mat_shiny_leather",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "B66C6D", "code": "B66C6D" },
+								{ "name": "E1A6AD", "code": "E1A6AD" },
+								{ "name": "A64570", "code": "A64570" },
+								{ "name": "C16C18", "code": "C16C18" },
+								{ "name": "DE9353", "code": "DE9353" },
+								{ "name": "83786F", "code": "83786F" },
+								{ "name": "8FACD8", "code": "8FACD8" },
+								{ "name": "6E7CA0", "code": "6E7CA0" },
+								{ "name": "946037", "code": "946037" },
+								{ "name": "744F28", "code": "744F28" }
+							]
+						},
+						{
+							"name": "mat_calf_leather",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "B66C6D", "code": "B66C6D" },
+								{ "name": "E1A6AD", "code": "E1A6AD" },
+								{ "name": "A64570", "code": "A64570" },
+								{ "name": "C16C18", "code": "C16C18" },
+								{ "name": "DE9353", "code": "DE9353" },
+								{ "name": "83786F", "code": "83786F" },
+								{ "name": "8FACD8", "code": "8FACD8" },
+								{ "name": "6E7CA0", "code": "6E7CA0" },
+								{ "name": "946037", "code": "946037" },
+								{ "name": "744F28", "code": "744F28" }
+							]
+						},
+						{
+							"name": "mat_leather",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "B66C6D", "code": "B66C6D" },
+								{ "name": "E1A6AD", "code": "E1A6AD" },
+								{ "name": "A64570", "code": "A64570" },
+								{ "name": "C16C18", "code": "C16C18" },
+								{ "name": "DE9353", "code": "DE9353" },
+								{ "name": "83786F", "code": "83786F" },
+								{ "name": "8FACD8", "code": "8FACD8" },
+								{ "name": "6E7CA0", "code": "6E7CA0" },
+								{ "name": "946037", "code": "946037" },
+								{ "name": "744F28", "code": "744F28" }
+							]
+						},
+						{
+							"name": "mat_textile",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "B66C6D", "code": "B66C6D" },
+								{ "name": "E1A6AD", "code": "E1A6AD" },
+								{ "name": "A64570", "code": "A64570" },
+								{ "name": "C16C18", "code": "C16C18" },
+								{ "name": "DE9353", "code": "DE9353" },
+								{ "name": "83786F", "code": "83786F" },
+								{ "name": "8FACD8", "code": "8FACD8" },
+								{ "name": "6E7CA0", "code": "6E7CA0" },
+								{ "name": "946037", "code": "946037" },
+								{ "name": "744F28", "code": "744F28" }
+							]
+						},
+						{
+							"name": "mat_fabric",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "B66C6D", "code": "B66C6D" },
+								{ "name": "E1A6AD", "code": "E1A6AD" },
+								{ "name": "A64570", "code": "A64570" },
+								{ "name": "C16C18", "code": "C16C18" },
+								{ "name": "DE9353", "code": "DE9353" },
+								{ "name": "83786F", "code": "83786F" },
+								{ "name": "8FACD8", "code": "8FACD8" },
+								{ "name": "6E7CA0", "code": "6E7CA0" },
+								{ "name": "946037", "code": "946037" },
+								{ "name": "744F28", "code": "744F28" }
+							]
+						},
+						{
+							"name": "mat_txs",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "B66C6D", "code": "B66C6D" },
+								{ "name": "E1A6AD", "code": "E1A6AD" },
+								{ "name": "A64570", "code": "A64570" },
+								{ "name": "C16C18", "code": "C16C18" },
+								{ "name": "DE9353", "code": "DE9353" },
+								{ "name": "83786F", "code": "83786F" },
+								{ "name": "8FACD8", "code": "8FACD8" },
+								{ "name": "6E7CA0", "code": "6E7CA0" },
+								{ "name": "946037", "code": "946037" },
+								{ "name": "744F28", "code": "744F28" }
+							]
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "FF7F00", "code": "FF7F00" }
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Flat Black", "code": "000000" }
+				]
+			}
+ 		},
+		{
+			"name": "upper_stitches",
+			"variants":
+			[
+				{
+					"name": "upper_stitches",
+					"file": "female_inner.blend",
+					"materials":
+					[
+						{
+							"name": "mat_cotton",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "B66C6D", "code": "B66C6D" },
+								{ "name": "E1A6AD", "code": "E1A6AD" },
+								{ "name": "A64570", "code": "A64570" },
+								{ "name": "C16C18", "code": "C16C18" },
+								{ "name": "DE9353", "code": "DE9353" },
+								{ "name": "83786F", "code": "83786F" },
+								{ "name": "8FACD8", "code": "8FACD8" },
+								{ "name": "6E7CA0", "code": "6E7CA0" },
+								{ "name": "946037", "code": "946037" },
+								{ "name": "744F28", "code": "744F28" }
+							]
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "00BFFF", "code": "00BFFF" }
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Flat Black", "code": "000000" }
+				]
+			}
+ 		},
+		{
+			"name": "buckle",
+			"variants":
+			[
+				{
+					"name": "buckle",
+					"file": "female_inner.blend",
+					"materials":
+					[
+						{
+							"name": "mat_metal",
+							"file": "female_materials.blend",
+							"colors":
+							[
+							{ "name": "FFF9FF", "code": "FFF9FF" }
+							]
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{
+						"name": "FFBF00",
+						"code": "FFBF00"
+					}
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "heelcap",
+			"variants":
+			[
+				{
+					"name": "heelcap",
+					"file": "female_inner.blend",
+					"materials":
+					[
+						{
+							"name": "mat_suede",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "FF9DA2", "code": "FF9DA2" },
+								{ "name": "F5CABF", "code": "F5CABF" },
+								{ "name": "CF578A", "code": "CF578A" },
+								{ "name": "DB8A06", "code": "DB8A06" },
+								{ "name": "FDAA63", "code": "FDAA63" },
+								{ "name": "B6ADA5", "code": "B6ADA5" },
+								{ "name": "B8CCEA", "code": "B8CCEA" },
+								{ "name": "8E9FBC", "code": "8E9FBC" },
+								{ "name": "AD7C59", "code": "AD7C59" },
+								{ "name": "8B5B29", "code": "8B5B29" }
+							]
+						},
+						{
+							"name": "mat_volpiana",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "FF9DA2", "code": "FF9DA2" },
+								{ "name": "F5CABF", "code": "F5CABF" },
+								{ "name": "CF578A", "code": "CF578A" },
+								{ "name": "DB8A06", "code": "DB8A06" },
+								{ "name": "FDAA63", "code": "FDAA63" },
+								{ "name": "B6ADA5", "code": "B6ADA5" },
+								{ "name": "B8CCEA", "code": "B8CCEA" },
+								{ "name": "8E9FBC", "code": "8E9FBC" },
+								{ "name": "AD7C59", "code": "AD7C59" },
+								{ "name": "8B5B29", "code": "8B5B29" }
+							]
+						},
+						{
+							"name": "mat_nubuk",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "FF9DA2", "code": "FF9DA2" },
+								{ "name": "F5CABF", "code": "F5CABF" },
+								{ "name": "CF578A", "code": "CF578A" },
+								{ "name": "DB8A06", "code": "DB8A06" },
+								{ "name": "FDAA63", "code": "FDAA63" },
+								{ "name": "B6ADA5", "code": "B6ADA5" },
+								{ "name": "B8CCEA", "code": "B8CCEA" },
+								{ "name": "8E9FBC", "code": "8E9FBC" },
+								{ "name": "AD7C59", "code": "AD7C59" },
+								{ "name": "8B5B29", "code": "8B5B29" }
+							]
+						},
+						{
+							"name": "mat_denim",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "FF9DA2", "code": "FF9DA2" },
+								{ "name": "F5CABF", "code": "F5CABF" },
+								{ "name": "CF578A", "code": "CF578A" },
+								{ "name": "DB8A06", "code": "DB8A06" },
+								{ "name": "FDAA63", "code": "FDAA63" },
+								{ "name": "B6ADA5", "code": "B6ADA5" },
+								{ "name": "B8CCEA", "code": "B8CCEA" },
+								{ "name": "8E9FBC", "code": "8E9FBC" },
+								{ "name": "AD7C59", "code": "AD7C59" },
+								{ "name": "8B5B29", "code": "8B5B29" }
+							]
+						},
+						{
+							"name": "mat_knitted",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "FF9DA2", "code": "FF9DA2" },
+								{ "name": "F5CABF", "code": "F5CABF" },
+								{ "name": "CF578A", "code": "CF578A" },
+								{ "name": "DB8A06", "code": "DB8A06" },
+								{ "name": "FDAA63", "code": "FDAA63" },
+								{ "name": "B6ADA5", "code": "B6ADA5" },
+								{ "name": "B8CCEA", "code": "B8CCEA" },
+								{ "name": "8E9FBC", "code": "8E9FBC" },
+								{ "name": "AD7C59", "code": "AD7C59" },
+								{ "name": "8B5B29", "code": "8B5B29" }
+							]
+						},
+						{
+							"name": "mat_sm_pearlsnake",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "FF9DA2", "code": "FF9DA2" },
+								{ "name": "F5CABF", "code": "F5CABF" },
+								{ "name": "CF578A", "code": "CF578A" },
+								{ "name": "DB8A06", "code": "DB8A06" },
+								{ "name": "FDAA63", "code": "FDAA63" },
+								{ "name": "B6ADA5", "code": "B6ADA5" },
+								{ "name": "B8CCEA", "code": "B8CCEA" },
+								{ "name": "8E9FBC", "code": "8E9FBC" },
+								{ "name": "AD7C59", "code": "AD7C59" },
+								{ "name": "8B5B29", "code": "8B5B29" }
+							]
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "FFFF00", "code": "FFFF00" }
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Flat Black", "code": "000000" }
+				]
+			}			
+ 		},
+		{
+			"name": "heelcap_stitches",
+			"variants":
+			[
+				{
+					"name": "heelcap_stitches",
+					"file": "female_inner.blend",
+					"materials":
+					[
+						{
+							"name": "mat_cotton",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "FF9DA2", "code": "FF9DA2" },
+								{ "name": "F5CABF", "code": "F5CABF" },
+								{ "name": "CF578A", "code": "CF578A" },
+								{ "name": "DB8A06", "code": "DB8A06" },
+								{ "name": "FDAA63", "code": "FDAA63" },
+								{ "name": "B6ADA5", "code": "B6ADA5" },
+								{ "name": "B8CCEA", "code": "B8CCEA" },
+								{ "name": "8E9FBC", "code": "8E9FBC" },
+								{ "name": "AD7C59", "code": "AD7C59" },
+								{ "name": "8B5B29", "code": "8B5B29" }
+							]
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "0080FF", "code": "0080FF" }
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Flat Black", "code": "000000" }
+				]
+			}
+ 		},
+		{
+			"name": "lining",
+			"variants":
+			[
+				{
+					"name": "lining",
+					"file": "female_inner.blend",
+					"materials":
+					[
+						{
+							"name": "mat_nappa",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "F3D4C7", "code": "F3D4C7" }
+							]
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "BFFF00", "code": "BFFF00" }
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Flat Black", "code": "000000" }
+				]
+			}
+ 		},
+		{
+			"name": "lining_stitches",
+			"variants":
+			[
+				{
+					"name": "lining_stitches",
+					"file": "female_inner.blend",
+					"materials":
+					[
+						{
+							"name": "mat_cotton",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "F3D4C7", "code": "F3D4C7" }
+							]
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "0040FF", "code": "0040FF" }
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Flat Black", "code": "000000" }
+				]
+			}
+ 		},
+		{
+			"name": "lining_heelcap",
+			"variants":
+			[
+				{
+					"name": "lining_heelcap",
+					"file": "female_inner.blend",
+					"materials":
+					[
+						{
+							"name": "mat_nubuk",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "A4705C", "code": "A4705C" }
+							]
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "80FF00", "code": "80FF00" }
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Flat Black", "code": "000000" }
+				]
+			}
+ 		},
+		{
+			"name": "lining_heelcap_stitches",
+			"variants":
+			[
+				{
+					"name": "lining_heelcap_stitches",
+					"file": "female_inner.blend",
+					"materials":
+					[
+						{
+							"name": "mat_cotton",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "E2A89A", "code": "E2A89A" }
+							]
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "0000FF", "code": "0000FF" }
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Flat Black", "code": "000000" }
+				]
+			}
+ 		},
+		{
+			"name": "insole",
+			"variants":
+			[
+				{
+					"name": "insole",
+					"file": "female_inner.blend",
+					"materials":
+					[
+						{
+							"name": "mat_nappa",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "F3D4C7", "code": "F3D4C7" }
+							]
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "40FF00", "code": "40FF00" }
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Flat Black", "code": "000000" }
+				]
+			}
+ 		},
+		{
+			"name": "outsole",
+			"variants":
+			[
+				{
+					"name": "outsole",
+					"file": "female_inner.blend",
+					"materials":
+					[
+						{
+							"name": "mat_plastic_smooth",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "000000", "code": "000000" }
+							]
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "00FF00", "code": "00FF00" }
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Flat Black", "code": "000000" }
+				]
+			}
+ 		},
+		{
+			"name": "sole",
+			"variants":
+			[
+				{
+					"name": "sole",
+					"file": "female_inner.blend",
+					"materials":
+					[
+						{
+							"name": "mat_metallic_leather",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "FFFFFF", "code": "FFFFFF" }
+							]
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "00FF40", "code": "00FF40" }
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Flat Black", "code": "000000" }
+				]
+			}
+ 		},
+		{
+			"name": "heel",
+			"variants":
+			[
+				{
+					"name": "heel",
+					"file": "female_inner.blend",
+					"materials":
+					[
+						{
+							"name": "mat_wood",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "0A0A0A", "code": "0A0A0A" }
+							]
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "00FF7F", "code": "00FF7F" }
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Flat Black", "code": "000000" }
+				]
+			}
+ 		},
+		{
+			"name": "heel_cap",
+			"variants":
+			[
+				{
+					"name": "heel_cap",
+					"file": "female_inner.blend",
+					"materials":
+					[
+						{
+							"name": "mat_plastic_smooth",
+							"file": "female_materials.blend",
+							"colors":
+							[
+								{ "name": "131313", "code": "131313" }
+							]
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "00FFBF", "code": "00FFBF" }
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Flat Black", "code": "000000" }
+				]
+			}
+ 		}
+	],
+	"landmarks":
+	[
+		{
+			"name": "L01",
+			"variants":
+			[
+				{
+					"name": "L01",
+					"file": "female_inner.blend",
+					"materials":[]
+				}
+			],
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Landmark 03", "code": "FF0000" }
+				]
+			}
+ 		},
+		{
+			"name": "L02",
+			"variants":
+			[
+				{
+					"name": "L02",
+					"file": "female_inner.blend",
+					"materials":[]
+				}
+			],
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Landmark 03", "code": "FF7F00" }
+				]
+			}
+ 		},
+		{
+			"name": "L03",
+			"variants":
+			[
+				{
+					"name": "L03",
+					"file": "female_inner.blend",
+					"materials":[]
+				}
+			],
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Landmark 03", "code": "FFFF00" }
+				]
+			}
+ 		},
+		{
+			"name": "L04",
+			"variants":
+			[
+				{
+					"name": "L04",
+					"file": "female_inner.blend",
+					"materials":[]
+				}
+			],
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Landmark 03", "code": "80FF00" }
+				]
+			}
+ 		},
+		{
+			"name": "L05",
+			"variants":
+			[
+				{
+					"name": "L05",
+					"file": "female_inner.blend",
+					"materials":[]
+				}
+			],
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Landmark 03", "code": "00FF00" }
+				]
+			}
+ 		},
+		{
+			"name": "L06",
+			"variants":
+			[
+				{
+					"name": "L06",
+					"file": "female_inner.blend",
+					"materials":[]
+				}
+			],
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Landmark 03", "code": "00FF7F" }
+				]
+			}
+ 		},
+		{
+			"name": "L07",
+			"variants":
+			[
+				{
+					"name": "L07",
+					"file": "female_inner.blend",
+					"materials":[]
+				}
+			],
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Landmark 03", "code": "00FFFF" }
+				]
+			}
+ 		},
+		{
+			"name": "L08",
+			"variants":
+			[
+				{
+					"name": "L08",
+					"file": "female_inner.blend",
+					"materials":[]
+				}
+			],
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Landmark 03", "code": "0080FF" }
+				]
+			}
+ 		},
+		{
+			"name": "L09",
+			"variants":
+			[
+				{
+					"name": "L09",
+					"file": "female_inner.blend",
+					"materials":[]
+				}
+			],
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Landmark 03", "code": "0000FF" }
+				]
+			}
+ 		},
+		{
+			"name": "L10",
+			"variants":
+			[
+				{
+					"name": "L10",
+					"file": "female_inner.blend",
+					"materials":[]
+				}
+			],
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Landmark 03", "code": "7F00FF" }
+				]
+			}
+ 		},
+		{
+			"name": "L11",
+			"variants":
+			[
+				{
+					"name": "L11",
+					"file": "female_inner.blend",
+					"materials":[]
+				}
+			],
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "female_materials.blend",
+				"colors":
+				[
+					{ "name": "Landmark 03", "code": "FF00FF" }
+				]
+			}
+ 		}
+	]
+}

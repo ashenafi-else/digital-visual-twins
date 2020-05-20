@@ -1,0 +1,395 @@
+{
+	"$id": "02",
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "3D_TO_MACHINE_LEARNING",
+	"type": "object",
+	"required": [ "product", "angles", "components" ],
+	"properties":
+	{
+		"product":
+		{
+			"type": "object",
+			"description": "The product's information.",
+			"required": [ "name", "owner", "last_modified", "version", "angles", "zones", "process" ],
+			"properties":
+			{
+				"name":
+				{
+					"type": "string",
+					"description": "The model's name."
+				},
+				"owner":
+				{
+					"type": "string",
+					"description": "The model's owner name."
+				},
+				"brand":
+				{
+					"type": "string",
+					"description": "The model's brand name."
+				},
+				"collection":
+				{
+					"type": "string",
+					"description": "The model's collection name."
+				},
+				"designer":
+				{
+					"type": "string",
+					"description": "The model's designer name."
+				},
+				"last_modified":
+				{
+					"type": "string",
+					"description": "The model's last modification date."
+				},
+				"version":
+				{
+					"type": "number",
+					"description": "The model's version number."
+				},
+				"main_material":
+				{
+					"type": "string",
+					"description": "The model's main material."
+				},
+				"main_color":
+				{
+					"type": "string",
+					"description": "The model's main color."
+				},
+				"target_category":
+				{
+					"type": "string",
+					"description": "The model's target category."
+				},
+				"season":
+				{
+					"type": "string",
+					"description": "The model's intended season."
+				},
+				"tip":
+				{
+					"type": "string",
+					"description": "The model's tip shape."
+				},
+				"closed":
+				{
+					"type": "boolean",
+					"description": "True if the model's tip is closed."
+				},
+				"closing":
+				{
+					"type": "string",
+					"description": "The model's type of closing (laces, zip...)."
+				},
+				"heel_height":
+				{
+					"type": "number",
+					"description": "The model's heel height in cm."
+				},
+				"shoe_height":
+				{
+					"type": "number",
+					"description": "The model's shoe height in cm."
+				},
+				"angles":
+				{
+					"type": "array",
+					"minItems": 1,
+					"items":
+					{
+						"angle":
+						{
+							"type": "string",
+							"description": "The view angle from which to generate."
+						}
+					}
+				},
+				"zones":
+				{
+					"type": "array",
+					"minItems": 1,
+					"items":
+					{
+						"zone":
+						{
+							"type": "string",
+							"description": "The product zones."
+						}
+					}
+				},
+				"process":
+				{
+					"type": "object",
+					"description": "The product's process information.",
+					"required": [ ],
+					"properties":
+					{
+						"generator":
+						{
+							"type": "string",
+							"description": "The generator's name."
+						},
+						"assets":
+						{
+							"type": "object",
+							"description": "The product's assets.",
+							"additionalProperties":
+							{
+								"$ref": "#/definitions/product_asset"
+							}
+						},
+						"cad":
+						{
+							"type": "string",
+							"description": "The source CAD name."
+						},
+						"rendering":
+						{
+							"type": "string",
+							"description": "The rendering system name."
+						},
+						"datasets":
+						{
+							"type": "array",
+							"minItem": 0,
+							"items":
+							{
+								"$ref": "#/definitions/dataset"
+							}
+						}
+					}
+				}
+			}
+		},
+		"angles":
+		{
+			"type": "array",
+			"minItems": 1,
+			"items":
+			{
+				"$ref": "#/definitions/angle"
+			}
+		},
+		"components":
+		{
+			"type": "array",
+			"minItems": 1,
+			"items":
+			{
+				"$ref": "#/definitions/component"
+			}
+		},
+		"landmarks":
+		{
+			"type": "array",
+			"items":
+			{
+				"$ref": "#/definitions/landmark"
+			}
+		}
+	},
+	"definitions":
+	{
+		"angle":
+		{
+			"type": "object",
+			"description": "The view angle from which to generate.",
+			"required": [ "name", "value" ],
+			"properties":
+			{
+				"name":
+				{
+					"type": "string",
+					"description": "The view angle's name."
+				},
+				"value":
+				{
+					"type": "number",
+					"description": "The angle value.",
+					"minimum": 0,
+					"maximum": 360
+				},
+				"offset":
+				{
+					"type": "number",
+					"description": "The maximum offset from the value.",
+					"minimum": 0,
+					"maximum": 360
+				}
+			}
+		},
+		"component":
+		{
+			"type": "object",
+			"required": [ "name", "variants", "mask_material" ],
+			"properties":
+			{
+				"name":
+				{
+					"type": "string",
+					"description": "The component's name."
+				},
+				"variants":
+				{
+					"type": "array",
+					"minItems": 1,
+					"items":
+					{
+						"$ref": "#/definitions/variant"
+					}
+				},
+				"mask_material":
+				{
+					"$ref": "#/definitions/material"
+				},
+				"landmark_material":
+				{
+					"$ref": "#/definitions/material"
+				}
+			}
+		},
+		"variant":
+		{
+			"type": "object",
+			"required": [ "name", "file", "materials" ],
+			"properties":
+			{
+				"name":
+				{
+					"type": "string",
+					"description": "The variant's name."
+				},
+				"file":
+				{
+					"type": "string",
+					"description": "The variant 3D geometry's file name."
+				},
+				"materials":
+				{
+					"type": "array",
+					"minItems": 0,
+					"items":
+					{
+						"$ref": "#/definitions/material"
+					}
+				}
+			}
+		},
+		"material":
+		{
+			"type": "object",
+			"required": [ "name", "file", "colors" ],
+			"properties":
+			{
+				"name":
+				{
+					"type": "string",
+					"description": "The material's name."
+				},
+				"file":
+				{
+					"type": "string",
+					"description": "The material's file name."
+				},
+				"color":
+				{
+					"type": "array",
+					"minItems": 1,
+					"items":
+					{
+						"$ref": "#/definitions/color"
+					}
+				}
+			}
+		},
+		"color":
+		{
+			"type": "object",
+			"required": [ "name", "code" ],
+			"properties":
+			{
+				"name":
+				{
+					"type": "string",
+					"description": "The color's name."
+				},
+				"code":
+				{
+					"type": "string",
+					"description": "The color's expanded hex code."
+				}
+			}
+		},
+		"landmark":
+		{
+			"type": "object",
+			"required": [ "name", "variants", "landmark_material" ],
+			"properties":
+			{
+				"name":
+				{
+					"type": "string",
+					"description": "The landmark's name."
+				},
+				"variants":
+				{
+					"type": "array",
+					"minItems": 1,
+					"items":
+					{
+						"$ref": "#/definitions/variant"
+					}
+				},
+				"landmark_material":
+				{
+					"$ref": "#/definitions/material"
+				}
+			}
+		},
+		"product_asset":
+		{
+			"type": "object",
+			"description": "A product's asset.",
+			"required": [ "type", "file" ],
+			"properties":
+			{
+				"type":
+				{
+					"type": "string",
+					"description": "The asset's type."
+				},
+				"file":
+				{
+					"type": "string",
+					"description": "The asset's file."
+				}
+			}
+		},
+		"dataset":
+		{
+			"type": "object",
+			"description": "The dataset information.",
+			"required": [ "name", "version", "size" ],
+			"properties":
+			{
+				"name":
+				{
+					"type": "string",
+					"description": "The dataset's name."
+				},
+				"version":
+				{
+					"type": "number",
+					"description": "The dataset's version."
+				},
+				"size":
+				{
+					"type": "number",
+					"description": "The dataset's number of images."
+				}
+			}
+		}
+	}
+}

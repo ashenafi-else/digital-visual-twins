@@ -1,0 +1,285 @@
+{
+	"product":
+	{
+		"name": "Sneaker",
+		"owner": "Belwest",
+		"brand": "Belwest",
+		"collection": "Visual Quality Control PoC",
+		"last_modified": "27-03-20",
+		"version": 1.0,
+		"main_material": "leather",
+		"main_color": "white",
+		"target_category": "men",
+		"season": "",
+		"tip": "round",
+		"closed": true,
+		"closing": "laces",
+		"heel_height": 2.5,
+		"shoe_height": 9.8,
+		"zones":
+		[
+			"lining",
+			"outsole",
+			"toecap",
+			"tongue",
+			"upper",
+			"upper_front"
+		],
+		"process":
+		{
+			"cad": "ShoeMaster v. 18"
+		}
+	},
+	"scale": 1.0,
+	"components":
+	[
+		{
+			"name": "upper",
+			"file": "upper.obj",
+			"material":
+			{
+				"name": "leather",
+				"file": "sneaker_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "upper_stitches",
+			"file": "upper_stitches.obj",
+			"material":
+			{
+				"name": "cotton",
+				"file": "sneaker_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "upper_front",
+			"file": "upper_front.obj",
+			"material":
+			{
+				"name": "leather",
+				"file": "sneaker_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "upper_front_stitches",
+			"file": "upper_front_stitches.obj",
+			"material":
+			{
+				"name": "cotton",
+				"file": "sneaker_materials.blend"
+			},
+			"metallic": false
+			
+ 		},
+		{
+			"name": "toecap",
+			"file": "toecap.obj",
+			"material":
+			{
+				"name": "leather",
+				"file": "sneaker_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "toecap_stitches",
+			"file": "toecap_stitches.obj",
+			"material":
+			{
+				"name": "cotton",
+				"file": "sneaker_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "tongue",
+			"file": "tongue.obj",
+			"material":
+			{
+				"name": "leather",
+				"file": "sneaker_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "collar",
+			"file": "collar.obj",
+			"material":
+			{
+				"name": "leather",
+				"file": "sneaker_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "collar_stitches",
+			"file": "collar_stitches.obj",
+			"material":
+			{
+				"name": "cotton",
+				"file": "sneaker_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "heel_tab",
+			"file": "heel_tab.obj",
+			"material":
+			{
+				"name": "leather",
+				"file": "sneaker_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "heel_tab_stitches",
+			"file": "heel_tab_stitches.obj",
+			"material":
+			{
+				"name": "cotton",
+				"file": "sneaker_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "star",
+			"file": "star.obj",
+			"material":
+			{
+				"name": "leather",
+				"file": "sneaker_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "star_stitches",
+			"file": "star_stitches.obj",
+			"material":
+			{
+				"name": "cotton",
+				"file": "sneaker_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "laces",
+			"file": "laces.obj",
+			"material":
+			{
+				"name": "cordura",
+				"file": "sneaker_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "lining",
+			"file": "lining.obj",
+			"material":
+			{
+				"name": "lining",
+				"file": "sneaker_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "lining_stitches",
+			"file": "lining_stitches.obj",
+			"material":
+			{
+				"name": "cotton",
+				"file": "sneaker_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "lining_heel",
+			"file": "lining_heel.obj",
+			"material":
+			{
+				"name": "lining",
+				"file": "sneaker_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "lining_heel_stitches",
+			"file": "lining_heel_stitches.obj",
+			"material":
+			{
+				"name": "cotton",
+				"file": "sneaker_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "insole",
+			"file": "insole.obj",
+			"material":
+			{
+				"name": "lining",
+				"file": "sneaker_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "outsole",
+			"file": "outsole.obj",
+			"material":
+			{
+				"name": "outsole",
+				"file": "sneaker_materials.blend"
+			},
+			"metallic": false
+ 		}
+	],
+	"landmarks":
+	[
+		{
+			"name": "L01",
+			"file": "L01.obj"
+ 		},
+		{
+			"name": "L02",
+			"file": "L02.obj"
+ 		},
+		{
+			"name": "L03",
+			"file": "L03.obj"
+ 		},
+		{
+			"name": "L04",
+			"file": "L04.obj"
+ 		},
+		{
+			"name": "L05",
+			"file": "L05.obj"
+ 		},
+		{
+			"name": "L06",
+			"file": "L06.obj"
+ 		},
+		{
+			"name": "L07",
+			"file": "L07.obj"
+ 		},
+		{
+			"name": "L08",
+			"file": "L08.obj"
+ 		},
+		{
+			"name": "L09",
+			"file": "L09.obj"
+ 		},
+		{
+			"name": "L10",
+			"file": "L10.obj"
+ 		},
+		{
+			"name": "L11",
+			"file": "L11.obj"
+ 		}
+	]
+}

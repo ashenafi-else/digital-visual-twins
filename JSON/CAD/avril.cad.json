@@ -1,0 +1,259 @@
+{
+	"product":
+	{
+		"name": "Avril",
+		"owner": "Belwest",
+		"brand": "Belwest",
+		"collection": "Visual Quality Control PoC",
+		"last_modified": "27-03-20",
+		"version": 1.0,
+		"main_material": "suede",
+		"main_color": "purple",
+		"target_category": "women",
+		"season": "",
+		"tip": "round",
+		"closed": true,
+		"closing": "strap",
+		"heel_height": 9.0,
+		"shoe_height": 15.9,
+		"zones":
+		[
+			"buckle",
+			"heel",
+			"heel_cap",
+			"heelcap",
+			"heelcap_stitches",
+			"insole",
+			"lining",
+			"lining_stitches",
+			"lining_heelcap",
+			"lining_heelcap_stitches",
+			"outsole",
+			"sole",
+			"toecap",
+			"toecap_stitches",
+			"upper",
+			"upper_stitches"
+		],
+		"process":
+		{
+			"assets":
+			{
+				"Avril CAD Model 1": { "type": "sho", "file": "belwest_avril_1937781_upgrade by dxf drawings.sho" }
+			},
+			"cad": "ShoeMaster v. 18"
+		}
+	},
+	"scale": 1.0,
+	"components":
+	[
+		{
+			"name": "toecap",
+			"file": "toecap.obj",
+			"material":
+			{
+				"name": "suede",
+				"file": "female_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "toecap_stitches",
+			"file": "toecap_stitches.obj",
+			"material":
+			{
+				"name": "cotton",
+				"file": "female_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "upper",
+			"file": "upper.obj",
+			"material":
+			{
+				"name": "SM_leather-red",
+				"file": "female_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "upper_stitches",
+			"file": "upper_stitches.obj",
+			"material":
+			{
+				"name": "cotton",
+				"file": "female_materials.blend"
+			},
+			"metallic": false
+			
+ 		},
+		{
+			"name": "buckle",
+			"file": "buckle.obj",
+			"material":
+			{
+				"name": "silver",
+				"file": "female_materials.blend"
+			},
+			"metallic": true
+ 		},
+		{
+			"name": "heelcap",
+			"file": "heelcap.obj",
+			"material":
+			{
+				"name": "suede",
+				"file": "female_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "heelcap_stitches",
+			"file": "heelcap_stitches.obj",
+			"material":
+			{
+				"name": "cotton",
+				"file": "female_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "lining",
+			"file": "lining.obj",
+			"material":
+			{
+				"name": "nappa",
+				"file": "female_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "lining_stitches",
+			"file": "lining_stitches.obj",
+			"material":
+			{
+				"name": "cotton",
+				"file": "female_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "lining_heelcap",
+			"file": "lining_heelcap.obj",
+			"material":
+			{
+				"name": "nubuk",
+				"file": "female_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "lining_heelcap_stitches",
+			"file": "lining_heelcap_stitches.obj",
+			"material":
+			{
+				"name": "cotton",
+				"file": "female_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "insole",
+			"file": "insole.obj",
+			"material":
+			{
+				"name": "nappa",
+				"file": "female_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "outsole",
+			"file": "outsole.obj",
+			"material":
+			{
+				"name": "plastic_smooth",
+				"file": "female_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "sole",
+			"file": "sole.obj",
+			"material":
+			{
+				"name": "metallic_leather",
+				"file": "female_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "heel",
+			"file": "heel.obj",
+			"material":
+			{
+				"name": "wood",
+				"file": "female_materials.blend"
+			},
+			"metallic": false
+ 		},
+		{
+			"name": "heel_cap",
+			"file": "heel_cap.obj",
+			"material":
+			{
+				"name": "plastic_smooth",
+				"file": "female_materials.blend"
+			},
+			"metallic": false
+ 		}
+	],
+	"landmarks":
+	[
+		{
+			"name": "L01",
+			"file": "L01.obj"
+ 		},
+		{
+			"name": "L02",
+			"file": "L02.obj"
+ 		},
+		{
+			"name": "L03",
+			"file": "L03.obj"
+ 		},
+		{
+			"name": "L04",
+			"file": "L04.obj"
+ 		},
+		{
+			"name": "L05",
+			"file": "L05.obj"
+ 		},
+		{
+			"name": "L06",
+			"file": "L06.obj"
+ 		},
+		{
+			"name": "L07",
+			"file": "L07.obj"
+ 		},
+		{
+			"name": "L08",
+			"file": "L08.obj"
+ 		},
+		{
+			"name": "L09",
+			"file": "L09.obj"
+ 		},
+		{
+			"name": "L10",
+			"file": "L10.obj"
+ 		},
+		{
+			"name": "L11",
+			"file": "L11.obj"
+ 		}
+	]
+}

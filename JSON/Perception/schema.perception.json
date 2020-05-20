@@ -1,0 +1,475 @@
+{
+	"$id": "03",
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "PERCEPTION",
+	"type": "object",
+	"description": "The perception's information.",
+	"required": [ "product", "angles", "zones" ],
+	"properties":
+	{
+		"product":
+		{
+			"type": "object",
+			"description": "The product's information.",
+			"required": [ "name", "owner", "brand", "last_modified", "version", "angles", "zones", "defects", "process" ],
+			"properties":
+			{
+				"name":
+				{
+					"type": "string",
+					"description": "The model's name."
+				},
+				"owner":
+				{
+					"type": "string",
+					"description": "The model's owner name."
+				},
+				"brand":
+				{
+					"type": "string",
+					"description": "The model's brand name."
+				},
+				"collection":
+				{
+					"type": "string",
+					"description": "The model's collection name."
+				},
+				"designer":
+				{
+					"type": "string",
+					"description": "The model's designer name."
+				},
+				"last_modified":
+				{
+					"type": "string",
+					"description": "The model's last modification date."
+				},
+				"version":
+				{
+					"type": "number",
+					"description": "The model's version number."
+				},
+				"main_material":
+				{
+					"type": "string",
+					"description": "The model's main material."
+				},
+				"main_color":
+				{
+					"type": "string",
+					"description": "The model's main color."
+				},
+				"target_category":
+				{
+					"type": "string",
+					"description": "The model's target category."
+				},
+				"season":
+				{
+					"type": "string",
+					"description": "The model's intended season."
+				},
+				"tip":
+				{
+					"type": "string",
+					"description": "The model's tip shape."
+				},
+				"closed":
+				{
+					"type": "boolean",
+					"description": "True if the model's tip is closed."
+				},
+				"closing":
+				{
+					"type": "string",
+					"description": "The model's type of closing (laces, zip...)."
+				},
+				"heel_height":
+				{
+					"type": "number",
+					"description": "The model's heel height in cm."
+				},
+				"shoe_height":
+				{
+					"type": "number",
+					"description": "The model's shoe height in cm."
+				},
+				"angles":
+				{
+					"type": "array",
+					"minItems": 1,
+					"items":
+					{
+						"angle":
+						{
+							"type": "string",
+							"description": "The view angle from which to inspect."
+						}
+					}
+				},
+				"zones":
+				{
+					"type": "array",
+					"minItems": 1,
+					"items":
+					{
+						"zone":
+						{
+							"type": "string",
+							"description": "The zones to inspect."
+						}
+					}
+				},
+				"defects":
+				{
+					"type": "array",
+					"minItems": 1,
+					"items":
+					{
+						"defect":
+						{
+							"type": "string",
+							"description": "The defects to test for."
+						}
+					}
+				},
+				"process":
+				{
+					"type": "object",
+					"description": "The product's process information.",
+					"required": [ ],
+					"properties":
+					{
+						"generator":
+						{
+							"type": "string",
+							"description": "The generator's name."
+						},
+						"assets":
+						{
+							"type": "object",
+							"description": "The product's assets.",
+							"additionalProperties":
+							{
+								"$ref": "#/definitions/product_asset"
+							}
+							
+						},
+						"datasets":
+						{
+							"type": "array",
+							"minItem": 0,
+							"items":
+							{
+								"$ref": "#/definitions/dataset"
+							}
+						}
+					}
+				}
+			}
+		},
+		"angles":
+		{
+			"type": "object",
+			"description": "The view angles from which to inspect.",
+			"additionalProperties":
+			{
+				"$ref": "#/definitions/angle"
+			}
+		},
+		"zones":
+		{
+			"type": "object",
+			"description": "The zones to test.",
+			"additionalProperties":
+			{
+				"$ref": "#/definitions/zone"
+			}
+		}
+	},
+	"definitions":
+	{
+		"angle":
+		{
+			"type": "object",
+			"description": "The view angle from which to inspect.",
+			"required": [ "value", "camera", "visible_zones", "synth_image", "real_image", "synth_mask", "real_mask", "synth_specularity", "real_specularity", "synth_albedo", "real_albedo" ],
+			"properties":
+			{
+				"value":
+				{
+					"type": "number",
+					"description": "The angle value.",
+					"minimum": 0.0,
+					"maximum": 360.0
+				},
+				"camera":
+				{
+					"$ref": "#/definitions/camera"
+				},
+				"visible_zones":
+				{
+					"type": "array",
+					"items":
+					{
+						"visible_zone":
+						{
+							"type": "string",
+							"description": "The visible zone's name."
+						}
+					}
+				},
+				"synth_image":
+				{
+					"type": "string",
+					"description": "The synthetic ideal product image."
+				},
+				"real_image":
+				{
+					"type": "string",
+					"description": "The sample product mask image."
+				},
+				"synth_mask":
+				{
+					"type": "string",
+					"description": "The ideal product mask image."
+				},
+				"real_mask":
+				{
+					"type": "string",
+					"description": "The sample product mask image."
+				},
+				"synth_specularity":
+				{
+					"type": "string",
+					"description": "The ideal product specularity image."
+				},
+				"real_specularity":
+				{
+					"type": "string",
+					"description": "The sample product specularity image."
+				},
+				"synth_albedo":
+				{
+					"type": "string",
+					"description": "The ideal product albedo image."
+				},
+				"real_albedo":
+				{
+					"type": "string",
+					"description": "The sample product albedo image."
+				}
+			}
+		},
+		"camera":
+		{
+			"type": "object",
+			"description": "The camera settings.",
+			"required": [ "position", "rotation", "fov", "near", "far" ],
+			"properties":
+			{
+				"position":
+				{
+					"$ref": "#/definitions/vector3D"
+				},
+				"rotation":
+				{
+					"$ref": "#/definitions/vector3D"
+				},
+				"fov":
+				{
+					"type": "number",
+					"description": "The camera's field of view.",
+					"minimum": 0.0
+				},
+				"near":
+				{
+					"type": "number",
+					"description": "The camera's near plane.",
+					"minimum": 0.0
+				},
+				"far":
+				{
+					"type": "number",
+					"description": "The camera's far plane.",
+					"minimum": 0.0
+				}
+			}
+		},
+		"zone":
+		{
+			"type": "object",
+			"description": "The zone to test.",
+			"required": [ "mask_color" ],
+			"properties":
+			{
+				"mask_color":
+				{
+					"type": "string",
+					"description": "The zone's mask color code."
+				},
+				"defects":
+				{
+					"type": "array",
+					"minItems": 1,
+					"items":
+					{
+						"$ref": "#/definitions/defect"
+					}
+				}
+			}
+		},
+		"defect":
+		{
+			"type": "object",
+			"description": "The defect to test for.",
+			"required": [ "name", "probability", "weight", "roi" ],
+			"properties":
+			{
+				"name":
+				{
+					"type": "string",
+					"description": "The defect's name."
+				},
+				"probability":
+				{
+					"type": "number",
+					"description": "The defect probability's normalized value.",
+					"minimum": 0.0,
+					"maximum": 1.0
+				},
+				"weight":
+				{
+					"type": "number",
+					"description": "The defect weight's normalized value.",
+					"minimum": 0.0,
+					"maximum": 1.0
+				},
+				"roi":
+				{
+					"type": "object",
+					"description": "The zone's ROI.",
+					"additionalProperties":
+					{
+						"$ref": "#/definitions/roi_angle"
+					}
+				},
+				"additional_zones":
+				{
+					"type": "array",
+					"minItems": 0,
+					"items":
+					{
+						"type": "string",
+						"description": "Additional zones to be considered when testing for the defect."
+					}
+				}
+			}
+		},
+		"roi_angle":
+		{
+			"type": "array",
+			"minItems": 1,
+			"items":
+			{
+				"$ref": "#/definitions/bounding_box"
+			}
+		},
+		"bounding_box":
+		{
+			"type": "array",
+			"minItems": 2,
+			"maxItems": 2,
+			"items":
+			{
+				"$ref": "#/definitions/point2D"
+			}
+		},
+		"point2D":
+		{
+			"type": "object",
+			"description": "A 2D point.",
+			"required": [ "x", "y" ],
+			"properties":
+			{
+				"x":
+				{
+					"type": "number",
+					"description": "The X coordinate."
+				},
+				"y":
+				{
+					"type": "number",
+					"description": "The X coordinate."
+				}
+			}
+		},
+		"vector3D":
+		{
+			"type": "object",
+			"description": "A 3D vector.",
+			"required": [ "x", "y", "z" ],
+			"properties":
+			{
+				"x":
+				{
+					"type": "number",
+					"description": "The X coordinate."
+				},
+				"y":
+				{
+					"type": "number",
+					"description": "The X coordinate."
+				},
+				"z":
+				{
+					"type": "number",
+					"description": "The Z coordinate."
+				}
+			}
+		},
+		"product_asset":
+		{
+			"type": "object",
+			"description": "A product's asset.",
+			"required": [ "type", "file" ],
+			"properties":
+			{
+				"type":
+				{
+					"type": "string",
+					"description": "The asset's type."
+				},
+				"file":
+				{
+					"type": "string",
+					"description": "The asset's file."
+				}
+			}
+		},
+		"dataset":
+		{
+			"type": "object",
+			"description": "The dataset information.",
+			"required": [ "name", "version", "size" ],
+			"properties":
+			{
+				"name":
+				{
+					"type": "string",
+					"description": "The dataset's name."
+				},
+				"version":
+				{
+					"type": "number",
+					"description": "The dataset's version."
+				},
+				"size":
+				{
+					"type": "number",
+					"description": "The dataset's number of images."
+				}
+			}
+		}
+	}
+}

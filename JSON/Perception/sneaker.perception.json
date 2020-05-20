@@ -1,0 +1,240 @@
+{
+	"product":
+	{
+		"name": "Sneaker",
+		"owner": "Belwest",
+		"brand": "Belwest",
+		"collection": "Visual Quality Control PoC",
+		"last_modified": "27-03-20",
+		"version": 1.0,
+		"main_material": "leather",
+		"main_color": "white",
+		"target_category": "men",
+		"season": "",
+		"tip": "round",
+		"closed": true,
+		"closing": "laces",
+		"heel_height": 2.3,
+		"shoe_height": 8.3,
+		"angles": [ "inner", "back", "outer", "front" ],
+		"zones":
+		[
+			"collar",
+			"collar_stitches",
+			"heel_tab",
+			"heel_tab_stitches",
+			"insole",
+			"laces",
+			"lining",
+			"lining_stitches",
+			"lining_heel",
+			"lining_heel_stitches",
+			"outsole",
+			"star",
+			"star_stitches",
+			"toecap",
+			"toecap_stitches",
+			"tongue",
+			"upper",
+			"upper_stitches",
+			"upper_front",
+			"upper_front_stitches"
+		],
+		"defects": [ "glue" ],
+		"process":
+		{
+			"assets":
+			{
+				"Sneaker Model 1": { "type": "blend", "file": "sneaker_inner.blend" },
+				"Sneaker Materials": { "type": "blend", "file": "sneaker_materials.blend" }
+			},
+			"cad": "ShoeMaster v. 18",
+			"rendering": "Blender scripting by ICOL R&D",
+			"datasets":
+			[
+				{
+					"name": "inner_data",
+					"version": 1.0,
+					"size": 300
+				}
+			]
+		}
+	},
+	"angles":
+	{
+		"inner":
+		{
+			"value": 0.0,
+			"camera":
+			{
+				"position": { "x": 0.0, "y": -0.93536, "z": 0.23880 },
+				"rotation": { "x": 78.1, "y": 0.0, "z": 0.0 },
+				"fov": 18.9
+			},
+			"visible_zones": [ "laces", "lining", "outsole", "toecap", "tongue", "upper", "upper_front" ],
+			"synth_image": "sneaker_inner_synth.png",
+			"real_image": "",
+			"synth_mask": "sneaker_inner_synth_m.png",
+			"real_mask": "",
+			"synth_specularity": "sneaker_inner_synth_s.png",
+			"real_specularity": "",
+			"synth_albedo": "sneaker_inner_synth_a.png",
+			"real_albedo": ""
+		},
+		"back":
+		{
+			"value": 90.0,
+			"camera":
+			{
+				"position": { "x": 0.93536, "y": 0.0, "z": 0.23880 },
+				"rotation": { "x": 78.1, "y": 0.0, "z": 90.0 },
+				"fov": 18.9
+			},
+			"visible_zones": [ "laces", "outsole", "upper" ],
+			"synth_image": "sneaker_inner_synth.png",
+			"real_image": "",
+			"synth_mask": "sneaker_inner_synth_m.png",
+			"real_mask": "",
+			"synth_specularity": "sneaker_inner_synth_s.png",
+			"real_specularity": "",
+			"synth_albedo": "sneaker_inner_synth_a.png",
+			"real_albedo": ""
+		},
+		"outer":
+		{
+			"value": 180.0,
+			"camera":
+			{
+				"position": { "x": 0.0, "y": 0.93536, "z": 0.23880 },
+				"rotation": { "x": 78.1, "y": 0.0, "z": 180.0 },
+				"fov": 18.9
+			},
+			"visible_zones": [ "laces", "lining", "outsole", "toecap", "tongue", "upper", "upper_front" ],
+			"synth_image": "sneaker_inner_synth.png",
+			"real_image": "",
+			"synth_mask": "sneaker_inner_synth_m.png",
+			"real_mask": "",
+			"synth_specularity": "sneaker_inner_synth_s.png",
+			"real_specularity": "",
+			"synth_albedo": "sneaker_inner_synth_a.png",
+			"real_albedo": ""
+		},
+		"front":
+		{
+			"value": 270.0,
+			"camera":
+			{
+				"position": { "x": -0.93536, "y": 0.0, "z": 0.23880 },
+				"rotation": { "x": 78.1, "y": 0.0, "z": -90.0 },
+				"fov": 18.9
+			},
+			"visible_zones": [ "laces", "lining", "outsole", "toecap", "tongue", "upper", "upper_front" ],
+			"synth_image": "sneaker_inner_synth.png",
+			"real_image": "",
+			"synth_mask": "sneaker_inner_synth_m.png",
+			"real_mask": "",
+			"synth_specularity": "sneaker_inner_synth_s.png",
+			"real_specularity": "",
+			"synth_albedo": "sneaker_inner_synth_a.png",
+			"real_albedo": ""
+		}
+	},
+	"zones":
+	{
+		"collar":
+		{
+			"mask_color": "FF0000"
+		},
+		"collar_stitches":
+		{
+			"mask_color": "00FFFF"
+		},
+		"heel_tab":
+		{
+			"mask_color": "FF4000"
+		},
+		"heel_tab_stitches":
+		{
+			"mask_color": "00BFFF"
+		},
+		"insole":
+		{
+			"mask_color": "FF7F00"
+		},
+		"laces":
+		{
+			"mask_color": "FFBF00"
+		},
+		"lining":
+		{
+			"mask_color": "FFFF00"
+		},
+		"lining_stitches":
+		{
+			"mask_color": "0080FF"
+		},
+		"lining_heel":
+		{
+			"mask_color": "BFFF00"
+		},
+		"lining_heel_stitches":
+		{
+			"mask_color": "0040FF"
+		},
+		"outsole":
+		{
+			"mask_color": "80FF00"
+		},
+		"star":
+		{
+			"mask_color": "40FF00"
+		},
+		"star_stitches":
+		{
+			"mask_color": "0000FF"
+		},
+		"toecap":
+		{
+			"mask_color": "00FF00"
+		},
+		"toecap_stitches":
+		{
+			"mask_color": "4000FF"
+		},
+		"tongue":
+		{
+			"mask_color": "00FF40"
+		},
+		"upper":
+		{
+			"mask_color": "00FF7F",
+			"defects":
+			[
+				{
+					"name": "glue",
+					"probability": 1.0,
+					"weight": 1.0,
+					"roi":
+					{
+						"inner": 
+						[
+							[ { "x": 40, "y": 325 },  { "x": 60, "y": 345 } ]
+						]
+					}
+				}
+			]
+		},
+		"upper_stitches":
+		{
+			"mask_color": "7F00FF"
+		},
+		"upper_front":
+		{
+			"mask_color": "00FFBF"
+		},
+		"upper_front_stitches":
+		{
+			"mask_color": "BF00FF"
+		}
+	}
+}

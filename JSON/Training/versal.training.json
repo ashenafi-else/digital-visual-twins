@@ -1,0 +1,2242 @@
+{
+	"product":
+	{
+		"name": "Versal",
+		"owner": "Belwest",
+		"collection": "Visual Quality Control PoC",
+		"last_modified": "27-03-20",
+		"version": 1.0,
+		"main_material": "leather",
+		"main_color": "black",
+		"target_category": "men",
+		"season": "summer",
+		"tip": "round",
+		"closed": true,
+		"closing": "laces",
+		"heel_height": 2.5,
+		"shoe_height": 9.8,
+		"angles":
+		[
+			"inner"
+		],
+		"zones":
+		[
+			"heelcap",
+			"heelcap_stitches",
+			"insole",
+			"laces",
+			"lining",
+			"lining_holes",
+			"lining_stitches",
+			"outsole",
+			"outsole_stitches",
+			"toecap",
+			"toecap_holes",
+			"tongue",
+			"tongue_stitches",
+			"upper",
+			"upper_holes",
+			"upper_stitches"
+		],
+		"process":
+		{
+			"assets":
+			{
+				"Versal CAD Model 1": { "type": "sho", "file": "belwest_versal_1938410_2.sho" },
+				"Versal Model 1": { "type": "blend", "file": "male.blend" },
+				"Versal Model 2": { "type": "blend", "file": "male_inner.blend" },
+				"Versal Materials": { "type": "blend", "file": "male_materials.blend" }
+			},
+			"cad": "ShoeMaster v. 18",
+			"rendering": "Blender scripting by ICOL R&D",
+			"datasets":
+			[
+				{
+					"name": "inner_data",
+					"version": 1.0,
+					"size": 300
+				}
+			]
+		}
+	},
+	"angles":
+	[
+		{
+			"name": "inner",
+			"value": 0.0,
+			"offset": 12.5
+		}
+	],
+	"components":
+	[
+		{
+			"name": "upper",
+			"file": "male.blend",
+			"materials":
+			[
+				{
+					"name": "mat_patent",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				},
+				{
+					"name": "mat_leather",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				},
+				{
+					"name": "mat_sm_leather",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				},
+				{
+					"name": "mat_denim",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				},
+				{
+					"name": "mat_knitted",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				},
+				{
+					"name": "mat_sm_pearlsnake",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "FF0000",
+						"code": "FF0000"
+					}
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}			
+ 		},
+		{
+			"name": "upper_stitches",
+			"file": "male.blend",
+			"materials":
+			[
+				{
+					"name": "mat_cotton",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "00FF00",
+						"code": "00FF00"
+					}
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "upper_holes",
+			"file": "male.blend",
+			"materials":
+			[
+				{
+					"name": "mat_transparent",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "FFFFFF",
+							"code": "FFFFFF"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "0040FF",
+						"code": "0040FF"
+					}
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "toecap",
+			"file": "male.blend",
+			"materials":
+			[
+				{
+					"name": "mat_patent",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				},
+				{
+					"name": "mat_leather",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				},
+				{
+					"name": "mat_sm_leather",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				},
+				{
+					"name": "mat_denim",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				},
+				{
+					"name": "mat_knitted",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				},
+				{
+					"name": "mat_sm_pearlsnake",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "FF4000",
+						"code": "FF4000"
+					}
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "toecap_holes",
+			"file": "male.blend",
+			"materials":
+			[
+				{
+					"name": "mat_transparent",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "FFFFFF",
+							"code": "FFFFFF"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "0080FF",
+						"code": "0080FF"
+					}
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "heelcap",
+			"file": "male.blend",
+			"materials":
+			[
+				{
+					"name": "mat_patent",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				},
+				{
+					"name": "mat_leather",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				},
+				{
+					"name": "mat_sm_leather",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				},
+				{
+					"name": "mat_denim",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				},
+				{
+					"name": "mat_knitted",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				},
+				{
+					"name": "mat_sm_pearlsnake",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "FF7F00",
+						"code": "FF7F00"
+					}
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "heelcap_stitches",
+			"file": "male.blend",
+			"materials":
+			[
+				{
+					"name": "mat_cotton",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "00FF40",
+						"code": "00FF40"
+					}
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "tongue",
+			"file": "male.blend",
+			"materials":
+			[
+				{
+					"name": "mat_patent",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				},
+				{
+					"name": "mat_leather",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				},
+				{
+					"name": "mat_sm_leather",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				},
+				{
+					"name": "mat_denim",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				},
+				{
+					"name": "mat_knitted",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				},
+				{
+					"name": "mat_sm_pearlsnake",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "FFBF00",
+						"code": "FFBF00"
+					}
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "tongue_stitches",
+			"file": "male.blend",
+			"materials":
+			[
+				{
+					"name": "mat_cotton",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "63666A",
+							"code": "63666A"
+						},
+						{
+							"name": "A7A8A9",
+							"code": "A7A8A9"
+						},
+						{
+							"name": "211747",
+							"code": "211747"
+						},
+						{
+							"name": "28334A",
+							"code": "28334A"
+						},
+						{
+							"name": "004B87",
+							"code": "004B87"
+						},
+						{
+							"name": "94450B",
+							"code": "94450B"
+						},
+						{
+							"name": "603D20",
+							"code": "603D20"
+						},
+						{
+							"name": "6B3529",
+							"code": "6B3529"
+						},
+						{
+							"name": "5A4522",
+							"code": "5A4522"
+						},
+						{
+							"name": "B47E00",
+							"code": "B47E00"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "00FF7F",
+						"code": "00FF7F"
+					}
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "lining",
+			"file": "male.blend",
+			"materials":
+			[
+				{
+					"name": "mat_nappa",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F3D4C7",
+							"code": "F3D4C7"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "FFFF00",
+						"code": "FFFF00"
+					}
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "lining_stitches",
+			"file": "male.blend",
+			"materials":
+			[
+				{
+					"name": "mat_cotton",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "E2A89A",
+							"code": "E2A89A"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "00FFBF",
+						"code": "00FFBF"
+					}
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "lining_holes",
+			"file": "male.blend",
+			"materials":
+			[
+				{
+					"name": "mat_transparent",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "FFFFFF",
+							"code": "FFFFFF"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "0000FF",
+						"code": "0000FF"
+					}
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "lining_heelcap",
+			"file": "male.blend",
+			"materials":
+			[
+				{
+					"name": "mat_nubuk",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "EBC1B3",
+							"code": "EBC1B3"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "FFFF00",
+						"code": "FFFF00"
+					}
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "lining_heelcap_stitches",
+			"file": "male.blend",
+			"materials":
+			[
+				{
+					"name": "mat_cotton",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "E2A89A",
+							"code": "E2A89A"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "00FFBF",
+						"code": "00FFBF"
+					}
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "insole",
+			"file": "male.blend",
+			"materials":
+			[
+				{
+					"name": "mat_nappa",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "F3D4C7",
+							"code": "F3D4C7"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "BFFF00",
+						"code": "BFFF00"
+					}
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "laces",
+			"file": "male.blend",
+			"materials":
+			[
+				{
+					"name": "mat_cotton",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "000000",
+							"code": "000000"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "40FF00",
+						"code": "40FF00"
+					}
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "outsole",
+			"file": "male.blend",
+			"materials":
+			[
+				{
+					"name": "mat_plastic_smooth",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "131313",
+							"code": "131313"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "80FF00",
+						"code": "80FF00"
+					}
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "outsole_stitches",
+			"file": "male.blend",
+			"materials":
+			[
+				{
+					"name": "mat_plastic_smooth",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "131313",
+							"code": "131313"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "00FFFF",
+						"code": "00FFFF"
+					}
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "outsole_deco",
+			"file": "male.blend",
+			"materials":
+			[
+				{
+					"name": "mat_metal",
+					"file": "male_materials.blend",
+					"colors":
+					[
+						{
+							"name": "FFF9FF",
+							"code": "FFF9FF"
+						}
+					]
+				}
+			],
+			"mask_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "80FF00",
+						"code": "80FF00"
+					}
+				]
+			},
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Flat Black",
+						"code": "000000"
+					}
+				]
+			}
+ 		}
+	],
+	"landmarks":
+	[
+		{
+			"name": "L01",
+			"file": "male.blend",
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Landmark 01",
+						"code": "FF0000"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "L02",
+			"file": "male.blend",
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Landmark 02",
+						"code": "FF7F00"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "L03",
+			"file": "male.blend",
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Landmark 03",
+						"code": "FFFF00"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "L04",
+			"file": "male.blend",
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Landmark 04",
+						"code": "80FF00"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "L05",
+			"file": "male.blend",
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Landmark 05",
+						"code": "00FF00"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "L06",
+			"file": "male.blend",
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Landmark 06",
+						"code": "00FF7F"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "L07",
+			"file": "male.blend",
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Landmark 07",
+						"code": "00FFFF"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "L08",
+			"file": "male.blend",
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Landmark 08",
+						"code": "0080FF"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "L09",
+			"file": "male.blend",
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Landmark 09",
+						"code": "0000FF"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "L10",
+			"file": "male.blend",
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Landmark 10",
+						"code": "7F00FF"
+					}
+				]
+			}
+ 		},
+		{
+			"name": "L11",
+			"file": "male.blend",
+			"landmark_material":
+			{
+				"name": "mat_flat_color",
+				"file": "male_materials.blend",
+				"colors":
+				[
+					{
+						"name": "Landmark 11",
+						"code": "FF00FF"
+					}
+				]
+			}
+ 		}
+	]
+}
