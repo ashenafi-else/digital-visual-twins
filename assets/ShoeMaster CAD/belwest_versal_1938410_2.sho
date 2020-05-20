@@ -1,0 +1,16 @@
+$(Shoemaster v3.2 Project $)
+shoe thumbnail filename '<h>data/thumb.thu'
+shoe notes filename '<h>data/notes.txt'
+shell balance right
+shoe filename colour '<h>data\colours.col'
+shoe filename last '<h>data\last_versal.las';shoe flattening 'Flatten thickness  0.00 vd top Name /Default'
+shoe filename style '<h>data\style.sty'
+shoe filename unit '<h>data\unit.unt'
+shoe filename style unit '<h>data\unitStyle.ust'
+shoe filename linestyle '<h>data\linestyle.lst'
+shoe filename picture '<h>data\picture.pic'
+shoe filename lighting '<h>data\lighting.lit'
+shell balance left
+shell balance right
+packet /Creative;packet current select
+piece /P_00013

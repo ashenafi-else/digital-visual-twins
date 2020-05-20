@@ -1,0 +1,283 @@
+colour    0 rgb    0   0   0
+colour    1 rgb    0   0   0
+colour    2 rgb    0   0   0
+colour    3 rgb    0   0   0
+colour    4 rgb    0   0   0
+colour    5 rgb    0   0   0
+colour    6 rgb    0   0   0
+colour    7 rgb    0   0   0
+colour    8 rgb    0   0   0
+colour    9 rgb    0   0   0
+colour   10 rgb    0   0   0
+colour   11 rgb    0   0   0
+colour   12 rgb    0   0   0
+colour   13 rgb    0   0   0
+colour   14 rgb    0   0   0
+colour   15 rgb    0   0   0
+colour   16 rgb    0   0   0
+colour   17 rgb    0   0   0
+colour   18 rgb    0   0   0
+colour   19 rgb    0   0   0
+colour   20 rgb    0   0   0
+colour   21 rgb    0   0   0
+colour   22 rgb    0   0   0
+colour   23 rgb    0   0   0
+colour   24 rgb  221   0   0
+colour   25 rgb    0   0 221
+colour   26 rgb  221   0   0
+colour   27 rgb   49  48  40
+colour   28 rgb  244  68 254
+colour   29 rgb  165  65 157
+colour   30 rgb  136  56   0
+colour   31 rgb    0 128 255
+colour   32 rgb  219  47  76
+colour   33 rgb  100  68  20
+colour   34 rgb   63  52 195
+colour   35 rgb   52  99  62
+colour   36 rgb  222  57  33
+colour   37 rgb  221   0   0
+colour   38 rgb    0 128   0
+colour   39 rgb    0 128 128
+colour   40 rgb    0 255 255
+colour   41 rgb  255 255 255
+colour   42 rgb  237 158  86
+colour   43 rgb  255 255 119
+colour   44 rgb    0 221   0
+colour   45 rgb  104 104 255
+colour   46 rgb    0 147   0
+colour   47 rgb    0   0 221
+colour   48 rgb  221   0   0
+colour   49 rgb  136  56   0
+colour   50 rgb    0 180 180
+colour   51 rgb    0   0   0
+colour   52 rgb    0 128 255
+colour   53 rgb    0 164   0
+colour   54 rgb  136  56   0
+colour   55 rgb    0 196 196
+colour   56 rgb    0   0 255
+colour   57 rgb    0   0   0
+colour   58 rgb    0   0   0
+colour   59 rgb    0   0   0
+colour   60 rgb    0   0   0
+colour   61 rgb    0   0   0
+colour   62 rgb    0   0   0
+colour   63 rgb    0   0   0
+colour   64 rgb    0   0   0
+colour   65 rgb    0   0   0
+colour   66 rgb    0   0   0
+colour   67 rgb    0   0   0
+colour   68 rgb    0   0   0
+colour   69 rgb    0   0   0
+colour   70 rgb    0   0   0
+colour   71 rgb    0   0   0
+colour   72 rgb    0   0   0
+colour   73 rgb    0   0   0
+colour   74 rgb    0   0   0
+colour   75 rgb    0   0   0
+colour   76 rgb    0   0   0
+colour   77 rgb    0   0   0
+colour   78 rgb    0   0   0
+colour   79 rgb    0   0   0
+colour   80 rgb    0   0   0
+colour   81 rgb    0   0   0
+colour   82 rgb    0   0   0
+colour   83 rgb    0   0   0
+colour   84 rgb    0   0   0
+colour   85 rgb    0   0   0
+colour   86 rgb    0   0   0
+colour   87 rgb    0   0   0
+colour   88 rgb    0   0   0
+colour   89 rgb    0   0   0
+colour   90 rgb    0   0   0
+colour   91 rgb    0   0   0
+colour   92 rgb    0   0   0
+colour   93 rgb    0   0   0
+colour   94 rgb    0   0   0
+colour   95 rgb    0   0   0
+colour   96 rgb    0   0   0
+colour   97 rgb    0   0   0
+colour   98 rgb    0   0   0
+colour   99 rgb    0   0   0
+colour  100 rgb    0   0   0
+colour  101 rgb  255   0   0
+colour  102 rgb    0 255   0
+colour  103 rgb    0   0 255
+colour  104 rgb  128   0   0
+colour  105 rgb  255 255   0
+colour  106 rgb  128   0 128
+colour  107 rgb    0 255 255
+colour  108 rgb  255   0 255
+colour  109 rgb  255 128   0
+colour  110 rgb    0 128   0
+colour  111 rgb    0   0   0
+colour  112 rgb    0   0   0
+colour  113 rgb    0   0   0
+colour  114 rgb    0   0   0
+colour  115 rgb    0   0   0
+colour  116 rgb    0   0   0
+colour  117 rgb    0   0   0
+colour  118 rgb    0   0   0
+colour  119 rgb    0   0   0
+colour  120 rgb    0   0   0
+colour  121 rgb    0   0   0
+colour  122 rgb    0   0   0
+colour  123 rgb    0   0   0
+colour  124 rgb    0   0   0
+colour  125 rgb    0   0   0
+colour  126 rgb    0   0   0
+colour  127 rgb    0   0   0
+colour  128 rgb    0   0   0
+colour  129 rgb    0   0   0
+colour  130 rgb    0   0   0
+colour  131 rgb    0   0   0
+colour  132 rgb    0   0   0
+colour  133 rgb    0   0   0
+colour  134 rgb    0   0   0
+colour  135 rgb    0   0   0
+colour  136 rgb    0   0   0
+colour  137 rgb    0   0   0
+colour  138 rgb    0   0   0
+colour  139 rgb    0   0   0
+colour  140 rgb    0   0   0
+colour  141 rgb    0   0   0
+colour  142 rgb    0   0   0
+colour  143 rgb    0   0   0
+colour  144 rgb    0   0   0
+colour  145 rgb    0   0   0
+colour  146 rgb    0   0   0
+colour  147 rgb    0   0   0
+colour  148 rgb    0   0   0
+colour  149 rgb    0   0   0
+colour  150 rgb    0   0   0
+colour  151 rgb    0   0   0
+colour  152 rgb    0   0   0
+colour  153 rgb    0   0   0
+colour  154 rgb    0   0   0
+colour  155 rgb    0   0   0
+colour  156 rgb    0   0   0
+colour  157 rgb    0   0   0
+colour  158 rgb    0   0   0
+colour  159 rgb    0   0   0
+colour  160 rgb    0   0   0
+colour  161 rgb    0   0   0
+colour  162 rgb    0   0   0
+colour  163 rgb    0   0   0
+colour  164 rgb    0   0   0
+colour  165 rgb    0   0   0
+colour  166 rgb    0   0   0
+colour  167 rgb    0   0   0
+colour  168 rgb    0   0   0
+colour  169 rgb    0   0   0
+colour  170 rgb    0   0   0
+colour  171 rgb    0   0   0
+colour  172 rgb    0   0   0
+colour  173 rgb    0   0   0
+colour  174 rgb    0   0   0
+colour  175 rgb    0   0   0
+colour  176 rgb    0   0   0
+colour  177 rgb    0   0   0
+colour  178 rgb    0   0   0
+colour  179 rgb    0   0   0
+colour  180 rgb    0   0   0
+colour  181 rgb    0   0   0
+colour  182 rgb    0   0   0
+colour  183 rgb    0   0   0
+colour  184 rgb    0   0   0
+colour  185 rgb    0   0   0
+colour  186 rgb    0   0   0
+colour  187 rgb    0   0   0
+colour  188 rgb    0   0   0
+colour  189 rgb    0   0   0
+colour  190 rgb    0   0   0
+colour  191 rgb    0   0   0
+colour  192 rgb    0   0   0
+colour  193 rgb    0   0   0
+colour  194 rgb    0   0   0
+colour  195 rgb    0   0   0
+colour  196 rgb    0   0   0
+colour  197 rgb    0   0   0
+colour  198 rgb    0   0   0
+colour  199 rgb    0   0   0
+colour  200 rgb    0   0   0
+colour  201 rgb    0   0   0
+colour  202 rgb    0   0   0
+colour  203 rgb    0   0   0
+colour  204 rgb    0   0   0
+colour  205 rgb    0   0   0
+colour  206 rgb    0   0   0
+colour  207 rgb    0   0   0
+colour  208 rgb    0   0   0
+colour  209 rgb    0   0   0
+colour  210 rgb    0   0   0
+colour  211 rgb    0   0   0
+colour  212 rgb    0   0   0
+colour  213 rgb    0   0   0
+colour  214 rgb    0   0   0
+colour  215 rgb    0   0   0
+colour  216 rgb    0   0   0
+colour  217 rgb    0   0   0
+colour  218 rgb    0   0   0
+colour  219 rgb    0   0   0
+colour  220 rgb    0   0   0
+colour  221 rgb    0   0   0
+colour  222 rgb    0   0   0
+colour  223 rgb    0   0   0
+colour  224 rgb    0   0   0
+colour  225 rgb    0   0   0
+colour  226 rgb    0   0   0
+colour  227 rgb    0   0   0
+colour  228 rgb    0   0   0
+colour  229 rgb    0   0   0
+colour  230 rgb    0   0   0
+colour  231 rgb    0   0   0
+colour  232 rgb    0   0   0
+colour  233 rgb    0   0   0
+colour  234 rgb    0   0   0
+colour  235 rgb    0   0   0
+colour  236 rgb    0   0   0
+colour  237 rgb    0   0   0
+colour  238 rgb    0   0   0
+colour  239 rgb    0   0   0
+colour  240 rgb    0   0   0
+colour  241 rgb    0   0   0
+colour  242 rgb    0   0   0
+colour  243 rgb    0   0   0
+colour  244 rgb    0   0   0
+colour  245 rgb    0   0   0
+colour  246 rgb    0   0   0
+colour  247 rgb    0   0   0
+colour  248 rgb    0   0   0
+colour  249 rgb    0   0   0
+colour  250 rgb    0   0   0
+colour  251 rgb  255   0   0
+colour  252 rgb    0 255   0
+colour  253 rgb    0   0 255
+colour  254 rgb  121 120 101
+colour  255 rgb  255 255 255
+colour surface    1 rgb  215 145  40
+colour surface    2 rgb  220 190  40
+colour surface    3 rgb   65 200  70
+colour surface    4 rgb  130 220 130
+colour surface    5 rgb  225 110 110
+colour surface    6 rgb  235 160 160
+colour surface    7 rgb   55 110 200
+colour surface    8 rgb  100  60   0
+colour surface    9 rgb  225  90   0
+colour surface   10 rgb  200 150  90
+colour surface   11 rgb   85  70 235
+colour surface   12 rgb    0 177 210
+colour surface   13 rgb    0 177 210
+colour surface   14 rgb   20 120 167
+colour surface   15 rgb    0 116 168
+colour surface   16 rgb  244 222 222
+colour surface   17 rgb    0   0   0
+colour surface   18 rgb    0   0   0
+colour surface   19 rgb  244 222 222
+colour surface   20 rgb  231 201 202
+colour surface   21 rgb  231 201 202
+colour surface   22 rgb  114 168 186
+colour surface   23 rgb  203 220 223
+colour surface   24 rgb  158  44 106
+colour surface   25 rgb  247 183  24
+colour surface   26 rgb  176 201 101
+colour surface   27 rgb  233 195 207

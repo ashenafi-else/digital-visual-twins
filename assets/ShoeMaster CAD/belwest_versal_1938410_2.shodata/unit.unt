@@ -1,0 +1,171 @@
+Unit Menu Line Used Disable
+Unit Menu Off
+Unit Delete
+Unit Block /insole
+Unit Line Block /side Second
+Unit Line Block /side First
+Unit Line Block /top Second
+Unit Line Block /top First
+Unit Line Block /bottom Second
+Unit Line Block /bottom First
+Unit Block /sole
+Unit Line Block /rand Second
+Unit Line Block /rand First
+Unit Line Block /rand A
+Unit Line Block /rand B
+Unit Line Block /rand C
+Unit Line Block /side Second
+Unit Line Block /side First
+Unit Line Block /top Second
+Unit Line Block /top First
+Unit Line Block /bottom Second
+Unit Line Block /bottom First
+Unit Block /heel
+Unit Line Block /rand Second
+Unit Line Block /rand First
+Unit Line Block /side Second
+Unit Line Block /side First
+Unit Line Block /side A
+Unit Line Block /side B
+Unit Line Block /top Second
+Unit Line Block /top First
+Unit Line Block /top A
+Unit Line Block /bottom Second
+Unit Line Block /bottom First
+Unit Line Block /bottom A
+Unit Line Block /face Second
+Unit Line Block /face First
+Unit Line Block /face A
+Unit Line Block /face B
+Unit Block /heelconst
+Unit Line Block /rand Second
+Unit Line Block /rand First
+
+Unit Block /insole
+Surface  Inner Surface Colour 9 Outer Surface Colour 9 Texture Coloured Off Texture Transparent Off Texture None Texture Reduction 16 Texture Offset X    0.000 Texture Offset Y    0.000 Texture Scale XY    1.000   1.000 Texture Angle    0.000 /insole/side
+Unit Line Block /side First Copy    0.00 From Last  Second
+Unit Line Block /side Second Offset    1.00 Angle    0.00 From Block /side First
+Unit Line Flattening Unroll
+Surface Selected Block
+Unit Block Bundle Block A
+Layer apply 0 Block
+Unit Block Construction Off
+Unit Block /insole
+Surface  Inner Surface Colour 9 Outer Surface Colour 9 Texture Coloured Off Texture Transparent Off Texture None Texture Reduction 16 Texture Offset X    0.000 Texture Offset Y    0.000 Texture Scale XY    1.000   1.000 Texture Angle    0.000 /insole/top
+Unit Line Block /top First Copy    0.00 First Reversed From Block /side First
+Unit Line Block /top Second Copy    0.00 Second From Block /side First
+Unit Line Flattening Unroll
+Surface Selected Block
+Unit Block Bundle Block A
+Layer apply 0 Block
+Unit Block Construction Off
+Unit Block /insole
+Surface  Inner Surface Colour 9 Outer Surface Colour 9 Texture Coloured Off Texture Transparent Off Texture None Texture Reduction 16 Texture Offset X    0.000 Texture Offset Y    0.000 Texture Scale XY    1.000   1.000 Texture Angle    0.000 /insole/bottom
+Unit Line Block /bottom First Copy    0.00 Second From Block /side Second
+Unit Line Block /bottom Second Copy    0.00 First Reversed From Block /side Second
+Unit Line Flattening Unroll
+Surface Selected Block
+Unit Block Bundle Block A
+Layer apply 0 Block
+Unit Block Construction Off
+Unit Block /sole
+Surface  Inner Surface Colour 2 Outer Surface Colour 2 Texture Coloured Off Texture Transparent Off Texture None Texture Reduction 16 Texture Offset X    0.000 Texture Offset Y    0.000 Texture Scale XY    1.000   1.000 Texture Angle    0.000 /sole/rand
+Unit Line Block /rand First Distance    2.00   2.00  From /insole/side  Second
+Unit Line Block /rand Second Offset Positioned    7.00   0.00   5.00 245.27 Horizontal  From Block /rand First
+Unit Line Block /rand A U  0.0000 Actual   -5.78   1.13   3.67  -4.37   0.82   4.33  BREAK 1
+Unit Line Block /rand B U  0.5000 Actual  248.19   0.09   1.00 247.14   0.04   1.51  BREAK 1
+Unit Line Block /rand C U  0.9760 Duplicate  From Block /rand A
+Unit Line Flattening Unroll
+Surface Selected Block
+Unit Block Bundle Block B
+Layer apply 0 Block
+Unit Block Construction Off
+Unit Block /sole
+Surface  Inner Surface Colour 2 Outer Surface Colour 2 Texture Coloured Off Texture Transparent Off Texture None Texture Reduction 16 Texture Offset X    0.000 Texture Offset Y    0.000 Texture Scale XY    1.000   1.000 Texture Angle    0.000 /sole/side
+Unit Line Block /side First Copy    0.00 From Block /rand Second
+Unit Line Block /side Second Offset   10.00  10.00 Angle    0.00   0.00 From Block /side First
+Unit Line Flattening Unroll
+Surface Selected Block
+Unit Block Bundle Block B
+Layer apply 0 Block
+Unit Block Construction Off
+Unit Block /sole
+Surface  Inner Surface Colour 2 Outer Surface Colour 2 Texture Coloured Off Texture Transparent Off Texture None Texture Reduction 16 Texture Offset X    0.000 Texture Offset Y    0.000 Texture Scale XY    1.000   1.000 Texture Angle    0.000 /sole/top
+Unit Line Block /top First Copy    0.00 First Reversed From Block /rand First
+Unit Line Block /top Second Copy    0.00 Second From Block /rand First
+Unit Line Flattening Z
+Surface Selected Block
+Unit Block Bundle Block B
+Layer apply 0 Block
+Unit Block Construction Off
+Unit Block /sole
+Surface  Inner Surface Colour 2 Outer Surface Colour 2 Texture Coloured Off Texture Transparent Off Texture None Texture Reduction 16 Texture Offset X    0.000 Texture Offset Y    0.000 Texture Scale XY    1.000   1.000 Texture Angle    0.000 /sole/bottom
+Unit Line Block /bottom First Copy    0.00 Second From Block /side Second
+Unit Line Block /bottom Second Copy    0.00 First Reversed From Block /side Second
+Unit Line Flattening Unroll
+Surface Selected Block
+Unit Block Bundle Block B
+Layer apply 0 Block
+Unit Block Construction Off
+Unit Block /heelconst
+Surface  Inner Surface Colour 4 Outer Surface Colour 4 Texture Coloured Off Texture Transparent Off Texture None Texture Reduction 16 Texture Offset X    0.000 Texture Offset Y    0.000 Texture Scale XY    0.000   0.000 Texture Angle    0.000 /heelconst/rand
+Unit Line Block /rand First Distance    0.00  From /sole/side  Second
+Unit Line Block /rand Second Offset    0.00 Horizontal  From Block /rand First
+Unit Line Flattening Unroll
+Surface Block
+Unit Block Bundle Block C
+Layer apply 0 Block
+Unit Block Construction On
+Unit Block /heel
+Surface  Inner Surface Colour 2 Outer Surface Colour 2 Texture Coloured Off Texture Transparent Off Texture None Texture Reduction 16 Texture Offset X    0.000 Texture Offset Y    0.000 Texture Scale XY    1.000   1.000 Texture Angle    0.000 /heel/rand
+Unit Line Block /rand First Copy    0.00 Back  70.00  70.00 From /heelconst/rand  First
+Unit Line Block /rand Second Copy    0.00 Back Block /rand First From /heelconst/rand  Second
+Unit Line Flattening Z
+Surface Selected Block
+Unit Block Bundle Block D
+Layer apply 0 Block
+Unit Block Construction Off
+Unit Block /heel
+Surface  Inner Surface Colour 2 Outer Surface Colour 2 Texture Coloured Off Texture Transparent Off Texture None Texture Reduction 16 Texture Offset X    0.000 Texture Offset Y    0.000 Texture Scale XY    1.000   1.000 Texture Angle    0.000 /heel/side
+Unit Line Block /side First Copy    0.00 From Block /rand Second
+Unit Line Block /side Second Base Line Angle    0.00 Base    0.00 Surface /sole/side  Second From Block /side First
+Unit Line Block /side A U  0.0000 Offset 
+Unit Line Block /side B U  1.0000 Offset 
+Unit Line Flattening Unroll
+Surface Selected Block
+Unit Block Bundle Block D
+Layer apply 0 Block
+Unit Block Construction Off
+Unit Block /heel
+Surface  Inner Surface Colour 2 Outer Surface Colour 2 Texture Coloured Off Texture Transparent Off Texture None Texture Reduction 16 Texture Offset X    0.000 Texture Offset Y    0.000 Texture Scale XY    1.000   1.000 Texture Angle    0.000 /heel/face
+Unit Line Block /face First Line  From Block /side First
+Unit Line Block /face Second Line Duplicate Block /face First From Block /side Second
+Unit Line Block /face A U  0.0000 Copy  From Block /side B
+Unit Line Block /face B U  1.0000 Copy  From Block /side A
+Unit Line Flattening Unroll
+Surface Selected Block
+Unit Block Bundle Block D
+Layer apply 0 Block
+Unit Block Construction Off
+Unit Block /heel
+Surface  Inner Surface Colour 2 Outer Surface Colour 2 Texture Coloured Off Texture Transparent Off Texture None Texture Reduction 16 Texture Offset X    0.000 Texture Offset Y    0.000 Texture Scale XY    1.000   1.000 Texture Angle    0.000 /heel/top
+Unit Line Block /top First Copy    0.00 First Reversed From Block /rand First
+Unit Line Block /top Second Copy    0.00 Second From Block /rand First
+Unit Line Block /top A U  0.0000 Copy  From Block /face First
+Unit Line Flattening Z
+Surface Selected Block
+Unit Block Bundle Block D
+Layer apply 0 Block
+Unit Block Construction Off
+Unit Block /heel
+Surface  Inner Surface Colour 2 Outer Surface Colour 2 Texture Coloured Off Texture Transparent Off Texture None Texture Reduction 16 Texture Offset X    0.000 Texture Offset Y    0.000 Texture Scale XY    1.000   1.000 Texture Angle    0.000 /heel/bottom
+Unit Line Block /bottom First Copy    0.00 Second From Block /side Second
+Unit Line Block /bottom Second Copy    0.00 First Reversed From Block /side Second
+Unit Line Block /bottom A U  0.0000 Copy  From Block /face Second
+Unit Line Flattening Unroll
+Surface Selected Block
+Unit Block Bundle Block D
+Layer apply 0 Block
+Unit Block Construction Off
+Unit Menu On
+Unit Menu Line Used Enable

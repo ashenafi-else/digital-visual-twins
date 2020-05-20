@@ -1,0 +1,123 @@
+     default arc offset   0.00    0.00 Outline        Corner           
+     Default Lap Marker    0.000
+     Default Lap A    8.000
+     Default Lap B    5.000
+     Default Lap C    3.500
+     Default Lap D    1.500
+     Default Hole A    1.000
+     Default Hole B    2.000
+     Default Hole C    3.000
+     Default Hole D    4.000
+     Default Arc Marker Gaps Number    5.000
+     Default Arc Marker Gaps Length   20.000
+     Default text Charsiz     3.00 Pencolour 1 Font 1 Pitch     1.00
+     Default gap          size     5.00 family  f
+     Default indicator    size     0.00
+     Default notch        size     1.50 height     1.50 family  d
+     Default stab         size     1.00 family  a
+     Default slash        size     6.00 slope    90.00 family  g
+     Default square notch size     2.00 slope    90.00 family  d
+     Default scallop      size    15.00 height     3.00 family  e
+     Default hartland     size    15.00 height     4.00 family  e
+linestyle Default              23   0.000   0.000   0.000 menu both advanced
+linestyle Punch                27   0.000   0.000   0.000 menu both standard
+linestyle Stitch A             24   1.500   0.200   0.000 menu both standard
+linestyle Stitch A threed colour surface 15 width     0.500 height    0.200 round  100.000   50.000 rotation    5.000 
+linestyle Stitch B             25   1.500   0.200   0.000 menu both standard
+linestyle Stitch B threed colour surface 2 width     0.500 height    0.200 round  100.000   50.000 rotation    5.000 
+linestyle Stitch C             26   1.500   0.200   0.000 menu both standard
+linestyle Stitch C threed colour surface 9 width     0.500 height    0.200 round  100.000   50.000 rotation    5.000 
+linestyle Stitch D             26   1.500   0.200   0.000 menu both standard
+linestyle Stitch D threed colour surface 11 width     0.500 height    0.200 round  100.000   50.000 rotation    5.000 
+linestyle Stitch E             26   1.200   1.200   0.000 menu both standard
+linestyle Stitch E threed colour surface 19 width     0.500 height    0.500 round  100.000   50.000 rotation   90.000 
+linestyle Stitch F             26   8.000   1.500   0.000 menu both standard
+linestyle Stitch F threed colour surface 1 width     0.500 height    0.500 round  100.000   50.000 rotation    5.000 
+linestyle Stitch G             26   9.000   1.500   0.000 menu both standard
+linestyle Stitch G threed colour surface 1 width     0.500 height    0.500 round  100.000   50.000 rotation    5.000 
+linestyle Stitch H             26  10.000   1.500   0.000 menu both standard
+linestyle Stitch H threed colour surface 1 width     0.500 height    0.500 round  100.000   50.000 rotation    5.000 
+linestyle Marker A             29   0.000   0.000   1.500 menu both standard
+linestyle Marker B             35   0.000   0.000   2.000 menu both standard
+linestyle Marker C             36   0.000   0.000   3.000 menu both standard
+linestyle Outline              34   0.000   0.000   0.000 menu both standard
+linestyle LAB                  23   2.000   1.000   0.000 menu both advanced
+linestyle Construction         30   0.800   0.800   0.000 menu both advanced
+linestyle Mating               23   0.000   0.000   0.000 menu both advanced
+linestyle Nodes                23   0.000   0.000   0.000 menu both advanced
+linestyle Arrows               23   0.000   0.000   0.000 menu both advanced
+linestyle Restrict             23   0.000   0.000   0.000 menu both advanced
+linestyle Sketch               22   0.000   0.000   0.000 menu both standard
+linestyle Slot                 31   0.000   0.000   0.000 menu both standard
+linestyle Cut                  53   0.000   0.000   0.000 menu both standard
+linestyle GCentre              23   0.000   0.000   0.000 menu both advanced
+linestyle Centre               38   0.000   0.000   0.000 menu both advanced
+linestyle Edge                 23   0.000   0.000   0.000 menu both standard
+linestyle Linings              32   0.000   0.000   0.000 menu both standard
+linestyle Seam                 39   0.000   0.000   0.000 menu both standard
+linestyle Hole                 33   0.000   0.000   0.000 menu both standard
+linestyle Highlight     colour 37   0.000   0.000   0.000 menu both standard
+linestyle Piece Collection       37   0.000   0.000   0.500 menu both standard
+linestyle Duplicate            23   1.000   0.500   0.000 menu both standard
+linestyle Cross                23   0.000   0.000   0.000 menu both advanced
+linestyle Tied                 50   0.000   0.000   0.000 menu both advanced
+linestyle TiedHighlight        55   0.000   0.000   0.000 menu both advanced
+linestyle Block A              50   0.000   0.000   0.000 menu threed advanced
+linestyle Block B              49   0.000   0.000   0.000 menu threed advanced
+linestyle Block C              48   0.000   0.000   0.000 menu threed advanced
+linestyle Block D              47   0.000   0.000   0.000 menu threed advanced
+linestyle Block E              46   0.000   0.000   0.000 menu threed advanced
+linestyle Block F              45   0.000   0.000   0.000 menu threed advanced
+linestyle Block G              44   0.000   0.000   0.000 menu threed advanced
+linestyle Block H              43   0.000   0.000   0.000 menu threed advanced
+linestyle Block I              42   0.000   0.000   0.000 menu threed advanced
+linestyle Block J              41   0.000   0.000   0.000 menu threed advanced
+linestyle Block K              50   0.000   0.000   0.000 menu threed advanced
+linestyle Block L              49   0.000   0.000   0.000 menu threed advanced
+linestyle Block M              48   0.000   0.000   0.000 menu threed advanced
+linestyle Block N              47   0.000   0.000   0.000 menu threed advanced
+linestyle Block O              46   0.000   0.000   0.000 menu threed advanced
+linestyle Block P              45   0.000   0.000   0.000 menu threed advanced
+linestyle Block Q              44   0.000   0.000   0.000 menu threed advanced
+linestyle Block R              43   0.000   0.000   0.000 menu threed advanced
+linestyle Block S              42   0.000   0.000   0.000 menu threed advanced
+linestyle Block T              41   0.000   0.000   0.000 menu threed advanced
+linestyle Block U              50   0.000   0.000   0.000 menu threed advanced
+linestyle Block V              49   0.000   0.000   0.000 menu threed advanced
+linestyle Block W              48   0.000   0.000   0.000 menu threed advanced
+linestyle Block X              47   0.000   0.000   0.000 menu threed advanced
+linestyle Block Y              46   0.000   0.000   0.000 menu threed advanced
+linestyle Block Z              45   0.000   0.000   0.000 menu threed advanced
+linestyle Invisible            -1   0.000   0.000   0.000 menu none advanced
+linestyle Annotation           46   3.000   1.000   0.000 menu threed advanced
+linestyle Localarea Outer       40   0.000   0.000   0.000 menu threed advanced
+linestyle Localarea Inner       39   0.000   0.000   0.000 menu threed advanced
+linestyle Lastmod Construction       37   0.000   0.000   0.000 menu threed advanced
+linestyle Section Guideline       26   0.000   0.000   0.000 menu threed advanced
+linestyle Profile Wireline       46   0.000   0.000   0.000 menu threed advanced
+linestyle Left                 28   0.000   0.000   0.000 menu both advanced
+linestyle Gross                32   0.000   0.000   0.000 menu both advanced
+linestyle Fake                 30   0.000   0.000   0.000 menu both advanced
+linestyle Grid                 31   0.000   0.000   0.000 menu both advanced
+linestyle Quality A            47   0.000   0.000   0.000 menu both advanced
+linestyle Quality B            48   0.000   0.000   0.000 menu both advanced
+linestyle Quality C            49   0.000   0.000   0.000 menu both advanced
+linestyle Quality D            46   0.000   0.000   0.000 menu both advanced
+linestyle Stretch              45   0.000   0.000   0.000 menu both advanced
+linestyle Size Marker          44   0.000   0.000   0.000 menu both advanced
+linestyle Slash                34   0.000   0.000   0.000 menu both advanced
+linestyle Footscan Section       48   0.000   0.000   0.000 menu threed advanced
+linestyle Last Section         47   0.000   0.000   0.000 menu threed advanced
+linestyle Imported             52   0.000   0.000   0.000 menu both advanced
+linestyle Model Attachment       52   0.000   0.000   0.000 menu both advanced
+linestyle Guide                56  10.000   1.500   0.000 menu both standard
+linestyle Colour Red           101   0.000   0.000   0.000 menu both advanced
+linestyle Colour Green         102   0.000   0.000   0.000 menu both advanced
+linestyle Colour Blue          103   0.000   0.000   0.000 menu both advanced
+linestyle Colour Brown         104   0.000   0.000   0.000 menu both advanced
+linestyle Colour Yellow        105   0.000   0.000   0.000 menu both advanced
+linestyle Colour Purple        106   0.000   0.000   0.000 menu both advanced
+linestyle Colour LightBlue       107   0.000   0.000   0.000 menu both advanced
+linestyle Colour LightPurple       108   0.000   0.000   0.000 menu both advanced
+linestyle Colour Orange        109   0.000   0.000   0.000 menu both advanced
+linestyle Colour DarkGreen       110   0.000   0.000   0.000 menu both advanced
